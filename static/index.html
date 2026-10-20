@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studywise | Your curriculum tutor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <a class="brand" href="/" aria-label="Studywise home">
+    <span class="brand-mark">S</span>
+    <span>studywise</span>
+  </a>
+  <div class="topbar-note"><span class="status-dot"></span> NCERT science guide</div>
+</header>
+
+<main class="app-shell">
+  <aside class="sidebar">
+    <div>
+      <div class="sidebar-kicker">Your study space</div>
+      <button class="new-chat" id="newChatBtn" type="button"><span class="plus">+</span> New question</button>
+      <nav class="side-nav" aria-label="Study navigation">
+        <div class="nav-label">Explore</div>
+        <a class="nav-item active" href="#chat"><span class="nav-icon">⌂</span> Tutor chat</a>
+        <a class="nav-item" href="#sources"><span class="nav-icon">▤</span> Textbook sources</a>
+      </nav>
+    </div>
+    <div class="sidebar-footer">
+      <div class="trust-card"><span class="trust-icon">✓</span><div><strong>Grounded answers</strong><small>Built from your curriculum</small></div></div>
+      <div class="profile"><span class="avatar">Y</span><span><strong>Young learner</strong><small>Classes 6–12 · Science</small></span><span class="more">•••</span></div>
+    </div>
+  </aside>
+
+  <section class="chat-area" id="chat">
+    <div class="chat-header">
+      <div><span class="eyebrow">Science · NCERT</span><h1>Ask your tutor</h1></div>
+      <button class="icon-button" type="button" title="More options" aria-label="More options">•••</button>
+    </div>
+
+    <div class="conversation" id="conversation">
+      <div class="welcome-block" id="welcomeBlock">
+        <div class="welcome-orbit"><span>✦</span></div>
+        <p class="eyebrow">Good to see you</p>
+        <h2>What are you curious about?</h2>
+        <p class="welcome-copy">Ask anything from your science curriculum. I’ll explain it clearly and show you where it comes from.</p>
+        <div class="suggestions">
+          <button class="suggestion" type="button" data-question="Why does resistance in a wire increase with temperature?"><span>⚡</span> Electricity & resistance</button>
+          <button class="suggestion" type="button" data-question="How does photosynthesis help a plant make food?"><span>🌱</span> Photosynthesis basics</button>
+          <button class="suggestion" type="button" data-question="What is the difference between an element and a compound?"><span>◈</span> Elements & compounds</button>
+        </div>
+      </div>
+
+      <section class="result-panel" id="resultPanel" hidden>
+        <div class="user-question" id="userQuestion"></div>
+        <article class="answer-sheet">
+          <div class="answer-sheet-head"><div class="tutor-label"><span class="mini-avatar">S</span><span>Studywise tutor</span></div><div class="meta-tags"><span id="metaGrade" class="tag tag-grade"></span><span id="metaSubject" class="tag tag-subject"></span></div></div>
+          <div id="answerText" class="answer-text"></div>
+        </article>
+        <article class="graph-card" id="graphCard" hidden>
+          <span class="sheet-label">How this connects</span>
+          <p class="lede small">Your question, the ideas it needs, and the passages it was answered from.</p>
+          <div id="graphSvgWrap" class="graph-wrap"></div>
+          <div class="graph-legend">
+            <span class="legend-item"><span class="dot dot-q"></span>Question</span>
+            <span class="legend-item"><span class="dot dot-gap"></span>Prerequisite concept</span>
+            <span class="legend-item"><span class="dot dot-src"></span>Source passage</span>
+          </div>
+        </article>
+        <article class="gaps-card" id="gapsCard" hidden><span class="sheet-label">Helpful background</span><p class="lede small">These earlier ideas connect to your question.</p><div id="gapsChips" class="chips"></div></article>
+        <article class="sources-card" id="sourcesCard" hidden><span class="sheet-label">Textbook trail</span><ul id="sourcesList" class="sources-list"></ul></article>
+      </section>
+    </div>
+
+    <section class="composer-wrap">
+      <div class="quick-controls"><button class="control-chip" type="button" id="focusQuestion">⌕ Ask a follow-up</button><span>Answers are sourced from NCERT · Classes 6–12</span></div>
+      <div class="composer">
+        <textarea id="question" rows="1" aria-label="Your question" placeholder="Ask anything about science..."></textarea>
+        <div class="composer-actions">
+          <div class="select-group"><label for="grade">Class</label><select id="grade"><option value="">Any class</option><option value="6">Class 6</option><option value="7">Class 7</option><option value="8">Class 8</option><option value="9">Class 9</option><option value="10">Class 10</option><option value="11">Class 11</option><option value="12">Class 12</option></select><label for="subject">Subject</label><select id="subject"><option value="">Any subject</option><option value="Science">Science</option><option value="Physics">Physics</option><option value="Chemistry">Chemistry</option><option value="Biology">Biology</option></select></div>
+          <button id="askBtn" type="button" aria-label="Send question" title="Send question"><span>Ask tutor</span><b>↗</b></button>
+        </div>
+      </div>
+      <div id="statusMsg" class="status" role="status"></div>
+    </section>
+  </section>
+</main>
+<footer class="footer">Hybrid RAG + curriculum graph · Made for focused learning</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

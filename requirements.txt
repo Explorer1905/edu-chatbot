@@ -1,0 +1,9 @@
+datasets
+pandas
+groq
+chromadb
+sentence-transformers
+rank-bm25
+networkx
+python-dotenv
+tqdm

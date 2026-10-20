@@ -1,0 +1,1159 @@
+[
+  {
+    "question": "Describe the structure of a typical seed.",
+    "reference": "A typical seed consists of a seed coat that protects the embryo, an endosperm that provides nutrients, and cotyledons that store food for the growing embryo.",
+    "subject": "Science",
+    "grade": 6,
+    "gold_prereqs": "No Prerequisites",
+    "llm_only": {
+      "answer": "**A seed is a compact, dormant plant embryo surrounded by protective and nutritive tissues.**  \nIts basic parts are:\n\n| Part | Location | Main Function |\n|------|----------|----------------|\n| **Seed coat (testa)** | Outer covering (often derived from the ovule integuments) | Protects the embryo from mechanical damage, desiccation, and pathogens; may aid in dispersal. |\n| **Embryo** | Inside the seed coat | The miniature plant that will grow when conditions are right. It is composed of: |\n| • **Radicle** | Tip of the embryo | Future root system; first structure to emerge during germination. |\n| • **Plumule** | Apex opposite the radicle | Gives rise to the shoot (stem and leaves). |\n| • **Cotyledons** (1 in monocots, 2 in dicots) | Between radicle and plumule | Store food reserves (starches, oils, proteins) and/or act as the first photosynthetic leaves after germination. |\n| **Endosperm (or perisperm)** | Tissue surrounding the embryo (sometimes filling most of the seed interior) | Provides additional stored nutrients (starch, oils, proteins) that the embryo uses during germination. In many dicots the endosperm is largely consumed during seed development, leaving the cotyledons as the main food source; in monocots (e.g., cereals) the endosperm remains the dominant reserve. |\n| **Hilum & Micropyle** (small openings) | Points where the seed was attached to the ovary (hilum) and where pollen tube entered (micropyle) | Serve as landmarks; the micropyle can allow water entry during germination. |\n\n### Typical Layout (cross‑section view)\n\n```\n[Seed coat] ── outermost protective layer\n   |\n[Endosperm] ── nutrient‑rich tissue (may be absent or reduced)\n   |\n[Embryo] ── radicle (bottom), plumule (top), cotyledons (sides)\n   |\n[Hilum] (attachment scar)   [Micropyle] (tiny pore)\n```\n\n### Variations to note\n\n| Seed type | Notable differences |\n|-----------|----------------------|\n| **Monocot (e.g., wheat, corn)** | Usually one cotyledon (the scutellum) and a large endosperm that dominates the seed volume. |\n| **Dicot (e.g., beans, sunflower)** | Typically two cotyledons that store most of the reserves; endosperm may be thin or absent. |\n| **Gymnosperm (e.g., pine)** | Seed coat is often woody; the nutritive tissue is called **megagametophyte** rather than endosperm. |\n| **Aposporous/Apomictic seeds** | May lack a functional endosperm but still contain a well‑developed embryo. |\n\n### Summary\n\nA typical seed consists of a protective **seed coat**, a **nutritive tissue** (endosperm or perisperm) that feeds the growing embryo, and the **embryo** itself, which includes the **radicle**, **plumule**, and **cotyledons**. This compact package enables the plant to survive adverse conditions and germinate when water, oxygen, and suitable temperature become available.",
+      "latency": 3.230386734008789,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "A typical seed is a compact reproductive unit that contains an **embryo** (the young plant) together with the nutrients the embryo needs for its early growth.  \nIts structure is made up of three main parts:\n\n1. **Seed coat** – a protective outer covering that shields the inner contents.  \n2. **Endosperm** – a nutrient‑rich tissue that supplies food to the embryo during germination.  \n3. **Cotyledons** – seed‑leaves that store additional food and later become the first leaves of the seedling.\n\nThese components work together to support germination and the development of a new plant.",
+      "latency": 92.9534683227539,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps (briefly)**  \n\n- **Root and stem morphology** – Roots anchor the plant and absorb water and minerals; stems support the plant and transport water, nutrients, and food between roots and leaves.  \n- **Fruit and pollination** – After flowers are pollinated, many plants develop fruits that protect the seeds and help in their dispersal.\n\n---\n\n**Structure of a typical seed (grade‑6 NCERT)**  \n\nA seed is the plant’s reproductive unit and contains everything needed to start a new plant. Its main parts are:\n\n1. **Seed coat (testa)** – A hard outer covering that protects the inner parts from damage and from drying out.  \n2. **Embryo** – The tiny young plant inside the seed. It consists of the future root (radicle), shoot (plumule), and sometimes a small leaf.  \n3. **Cotyledons** – One or two seed‑leaves that are part of the embryo. They store food and, after germination, often supply the seedling with nutrients until true leaves develop.  \n4. **Endosperm** – A nutrient‑rich tissue (often starch‑rich) that surrounds the embryo and provides food for the growing seedling.  \n\nTogether, these components (seed coat, embryo with cotyledons, and endosperm) enable the seed to remain dormant until the right conditions (water, oxygen, temperature, and sometimes light) trigger germination.",
+      "latency": 152.9835910797119,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [],
+        "found": [
+          "root and stem morphology",
+          "pollination",
+          "fruit"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the role of decomposers in a forest ecosystem.",
+    "reference": "Decomposers break down dead organic matter, such as leaves and animals, into simpler substances. This process recycles nutrients back into the soil, supporting plant growth and preventing the accumulation of waste. They contribute to the formation of humus, a nutrient-rich layer of soil.",
+    "subject": "Science",
+    "grade": 7,
+    "gold_prereqs": "Importance of Forests",
+    "llm_only": {
+      "answer": "**Decomposers** – mainly fungi, bacteria and a few microscopic animals – are the “recycling crew” of a forest. Their key roles are:\n\n| Function | How it works | Why it matters |\n|----------|--------------|----------------|\n| **Break down dead material** | Enzymes dissolve wood, leaves, animal carcasses, and other organic matter into simple compounds. | Turns litter into usable nutrients instead of letting it pile up. |\n| **Nutrient cycling** | Released nutrients (nitrogen, phosphorus, potassium, etc.) are taken up again by plant roots. | Keeps the soil fertile and supports new plant growth. |\n| **Soil formation & structure** | Decomposition adds organic matter (humus) that improves water‑holding capacity, aeration, and aggregation of soil particles. | Enhances root penetration, reduces erosion, and stores carbon. |\n| **Energy flow** | Decomposers convert the chemical energy stored in dead organisms into biomass that other organisms (e.g., detritivores, soil fauna) can eat. | Extends the food web beyond the classic “producer → herbivore → predator” chain. |\n| **Carbon sequestration** | Some decomposition products become stable humus, locking carbon in the soil for decades or longer. | Helps regulate atmospheric CO₂ levels. |\n\n**In short:** Decomposers close the loop in a forest ecosystem. By turning dead organic matter into nutrients and soil organic matter, they sustain plant productivity, maintain soil health, support a diverse community of soil organisms, and play a crucial part in global nutrient and carbon cycles.",
+      "latency": 4.05417013168335,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "Decomposers such as bacteria and fungi are essential for recycling matter in a forest. They break down dead plants, leaves, and animal remains into simpler substances, turning this waste into nutrients that are released back into the soil. These nutrients are then taken up by plants, supporting their growth and maintaining soil fertility. By converting organic waste into usable material, decomposers prevent the buildup of dead matter, help form humus (a nutrient‑rich soil layer), and keep the forest’s nutrient cycle continuous and the ecosystem healthy.",
+      "latency": 68.37166500091553,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Quick note on a prerequisite – natural resources**  \nNatural resources are the materials we get from nature that we use to live and grow. They are of two main types:  \n\n1. **Biotic (living) resources** – plants, animals, microbes, etc.  \n2. **Abiotic (non‑living) resources** – water, minerals, sunlight, air.  \n\nDecomposers belong to the biotic group and they help turn one natural resource (dead matter) into another useful one (nutrients for plants).\n\n---\n\n### Role of decomposers in a forest ecosystem  \n\n- **Break down dead organic matter** – Bacteria and fungi (the main decomposers) digest fallen leaves, dead animals and wood, turning them into simpler substances.  \n- **Recycle nutrients** – The breakdown releases essential nutrients (like nitrogen, phosphorus) back into the soil. These nutrients are then taken up by plant roots, helping plants grow.  \n- **Prevent waste buildup** – By converting dead material into soil components, decomposers stop the forest floor from becoming a pile of unusable litter.  \n- **Form humus** – Their activity creates humus, a dark, nutrient‑rich layer of soil that improves soil structure and water‑holding capacity.  \n- **Support the whole food web** – The nutrients they return to the soil sustain plants, which in turn feed herbivores and carnivores, keeping the forest ecosystem healthy and vibrant.\n\nIn short, decomposers act like nature’s recyclers: they turn dead plants and animals into the nutrients that keep forest soils fertile and the whole ecosystem thriving.",
+      "latency": 131.4686315059662,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "importance of forests"
+        ],
+        "found": [
+          "reflection of light",
+          "types of natural resources",
+          "solar system and celestial bodies"
+        ]
+      }
+    }
+  },
+  {
+    "question": "What are the two categories of substances based on their ability to conduct electricity in aqueous solutions?",
+    "reference": "Electrolytes and non-electrolytes.",
+    "subject": "Chemistry",
+    "grade": 11,
+    "gold_prereqs": "No Prerequisites",
+    "llm_only": {
+      "answer": "In aqueous solution substances are classified as either  \n\n**1. Electrolytes** – they dissociate into ions and thus **conduct electricity**.  \n   * *Strong electrolytes* (e.g., NaCl, HCl, KNO₃) ionize completely.  \n   * *Weak electrolytes* (e.g., acetic acid, NH₃) ionize only partially.  \n\n**2. Non‑electrolytes** – they do **not produce ions** in solution and therefore **do not conduct electricity** (e.g., sugar, ethanol).",
+      "latency": 77.07142615318298,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The substances are classified into two categories:\n\n1. **Electrolytes** – substances that conduct electricity when dissolved in water.  \n2. **Non‑electrolytes** – substances that do **not** conduct electricity in aqueous solution.  \n\n(Reference: p_3213 – “Electrolytes are substances that conduct electricity when dissolved in water, while non‑electrolytes do not.”)",
+      "latency": 65.20084118843079,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps (briefly)**  \n- **Chemical effects of current** – When an electric current passes through a solution, it can cause chemical changes because the current is carried by ions.  \n- **Types of solutions** – Solutions can be *aqueous* (water‑based) or non‑aqueous; the ability to conduct electricity depends on whether the solute produces ions in the water.\n\n**Answer**  \nBased on their ability to conduct electricity in aqueous (water) solutions, substances are classified into two categories:\n\n1. **Electrolytes** – Substances that **conduct electricity** when dissolved in water because they dissociate into ions.  \n2. **Non‑electrolytes** – Substances that **do not conduct electricity** in water because they do not produce ions.  \n\n(As noted in the material, electrolytes can be further divided into strong and weak types, but the primary two categories are electrolytes and non‑electrolytes.)",
+      "latency": 2.252622127532959,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [],
+        "found": [
+          "chemical effects of current",
+          "types of solutions",
+          "temperature and heat"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the process of introducing a functional ADA gene into lymphocytes.",
+    "reference": "The process involves extracting lymphocytes from the patient, introducing a functional ADA gene using a retroviral vector, and then returning the genetically engineered lymphocytes to the patient.",
+    "subject": "Biology",
+    "grade": 12,
+    "gold_prereqs": "Genetic Engineering and Recombinant DNA Technology, Applications of Genetic Engineering",
+    "llm_only": {
+      "answer": "**Introducing a functional ADA gene into a patient’s lymphocytes (ex‑vivo gene therapy for ADA‑SCID)**  \n\nBelow is a step‑by‑step overview of the most common clinical approach, which uses a viral vector to deliver the normal adenosine deaminase (ADA) gene into the patient’s own T‑cells (or broader lymphoid progenitors).  \n\n---\n\n### 1. Patient cell collection  \n\n| Step | What is done | Why |\n|------|--------------|-----|\n| **Apheresis** | Blood is drawn and a leukapheresis machine separates peripheral blood mononuclear cells (PBMCs). | Provides a large, relatively pure population of lymphocytes (mainly T‑cells) for manipulation. |\n| **Optional enrichment** | Magnetic beads or flow‑sorting can be used to isolate CD3⁺ T‑cells or CD34⁺ hematopoietic stem/progenitor cells (HSPCs) if a broader immune reconstitution is desired. | Increases transduction efficiency and reduces contaminating cell types. |\n\n---\n\n### 2. Vector design & production  \n\n| Component | Typical choice | Key features |\n|-----------|----------------|--------------|\n| **Vector backbone** | **Self‑inactivating (SIN) γ‑retrovirus** or **lentivirus** (e.g., HIV‑1‑based). | Integrates into the host genome for long‑term expression; SIN design reduces promoter‑enhancer activity that could activate nearby oncogenes. |\n| **Transgene cassette** | Human ADA cDNA under a constitutive promoter (e.g., EF‑1α, PGK) or a lymphocyte‑specific promoter (e.g., CD2). | Provides continuous ADA production in transduced cells. |\n| **Safety elements** | Woodchuck hepatitis virus post‑transcriptional regulatory element (WPRE) for higher expression; insulator sequences (e.g., cHS4) to limit enhancer effects. | Improves expression while mitigating insertional mutagenesis risk. |\n| **Production** | Transient transfection of packaging cell lines (e.g., 293T) → harvest, filter, and concentrate viral supernatant (ultracentrifugation or chromatography). | Generates a clinical‑grade vector (GMP‑compliant) with a defined infectious titer (TU/mL). |\n\n---\n\n### 3. Ex‑vivo transduction  \n\n1. **Pre‑activation of lymphocytes**  \n   * Stimulate T‑cells with anti‑CD3/CD28 antibodies (or beads) plus IL‑2 (or IL‑7/IL‑15) for 24–48 h.  \n   * Activation drives cells into the cell cycle, which markedly improves retroviral integration.\n\n2. **Transduction protocol**  \n   * **Spinoculation** – Plate cells in a retronectin‑coated vessel, add viral supernatant (MOI ≈ 5–10), and centrifuge at 1,200 × g for 90 min at 32 °C.  \n   * Incubate 4–6 h, then replace with fresh medium containing cytokines.  \n   * Repeat the transduction (usually 2–3 rounds)",
+      "latency": 6.003554105758667,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The procedure for introducing a functional ADA gene into a patient’s lymphocytes is as follows:\n\n1. **Extraction of lymphocytes** – White‑blood cells (lymphocytes) are taken from the patient’s blood.  \n2. **Gene insertion** – The isolated cells are exposed to a retroviral vector that carries a normal (functional) ADA gene. The retrovirus inserts this gene into the lymphocyte’s genome.  \n3. **Re‑infusion** – The genetically modified lymphocytes are then infused back into the patient, where they can produce the missing ADA enzyme and help restore immune function.  \n\nBecause these engineered lymphocytes are not immortal, the patient must receive periodic infusions to maintain the therapeutic effect. A more permanent cure would require introducing the ADA gene at an earlier developmental stage (e.g., in embryonic cells).",
+      "latency": 1.345287799835205,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite basics (very short)**  \n- **DNA & RNA** – DNA stores the genetic instructions. When a gene is needed, the cell makes a copy called messenger RNA (mRNA) in a process called **transcription**.  \n- **Inheritance patterns** – A defective gene (like the one for ADA) can be passed from parents to child; the disease appears when both copies are non‑functional.  \n- **DNA replication & transcription** – Before a cell divides, its DNA is copied (replication). To make a protein, the DNA sequence of a gene is transcribed into RNA, which is then translated into the protein.\n\n---\n\n### Introducing a functional ADA gene into lymphocytes (gene‑therapy steps)\n\n1. **Collect the patient’s lymphocytes**  \n   - Lymphocytes (a type of white‑blood cell) are drawn from the patient’s blood.\n\n2. **Prepare a retroviral vector carrying the normal ADA gene**  \n   - A retrovirus is used as a **vector** because it naturally inserts its genetic material into host cells.  \n   - The functional ADA gene is cloned into the viral genome (as described in the cloning passage).\n\n3. **Infect the lymphocytes with the vector**  \n   - The retroviral particles are mixed with the extracted lymphocytes.  \n   - The virus attaches to the lymphocyte surface, enters the cell, and its DNA (including the ADA gene) integrates into the lymphocyte’s genome.\n\n4. **Expression of the introduced ADA gene**  \n   - Once integrated, the cell’s normal transcription machinery copies the ADA gene into mRNA, which is then translated into functional ADA enzyme, correcting the deficiency in those cells.\n\n5. **Expand and return the modified cells**  \n   - The genetically corrected lymphocytes are cultured (grown) to obtain enough cells.  \n   - They are then infused back into the patient’s bloodstream.\n\n6. **Periodic reinfusion**  \n   - Because lymphocytes are not immortal, they die over time; therefore the patient needs repeated infusions of newly engineered cells to maintain therapeutic levels of ADA.\n\n7. **Future permanent approach (optional)**  \n   - A more lasting cure could involve inserting the ADA gene at very early embryonic stages, so all cells of the body carry the functional gene.\n\nThese steps together constitute the gene‑therapy method used to treat ADA deficiency by delivering a functional ADA gene into the patient’s own lymphocytes.",
+      "latency": 10.50786304473877,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "applications of genetic engineering",
+          "genetic engineering and recombinant dna technology"
+        ],
+        "found": [
+          "dna and rna",
+          "dna replication and transcription",
+          "inheritance patterns"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Recognize the primary pigment involved in photosynthesis.",
+    "reference": "Chlorophyll",
+    "subject": "Science",
+    "grade": 6,
+    "gold_prereqs": "No Prerequisites",
+    "llm_only": {
+      "answer": "The primary pigment that drives photosynthesis is **chlorophyll a**. It absorbs light most efficiently in the blue (~430 nm) and red (~660 nm) regions and initiates the light‑dependent reactions that convert solar energy into chemical energy.",
+      "latency": 5.112626791000366,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The given passages describe the overall process of photosynthesis but do not mention the specific pigment that captures light energy. Therefore, the material does not contain the answer to this question.",
+      "latency": 5.465761184692383,
+      "correctness": 1,
+      "groundedness": 1,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps – quick recap**\n\n1. **Nutrition and respiration** – Plants obtain food (glucose) through photosynthesis and break it down for energy by respiration, just as animals do.  \n2. **Respiratory pathways** – In respiration, glucose is oxidised to release energy; the opposite process (photosynthesis) builds glucose using light.  \n3. **States of water** – Water is taken up by roots as liquid, moves through the plant, and can evaporate from leaves (transpiration). It is also a raw material for photosynthesis.\n\n---\n\n**Primary pigment in photosynthesis**\n\nThe passages tell us that photosynthesis occurs in the **chloroplasts** of plant cells:\n\n> “...This process occurs in the **chloroplasts** of plant cells…” (e.g., p_11114, p_11109, p_11108, p_11110, p_11113)\n\nThe green pigment that gives chloroplasts their colour and captures light energy is **chlorophyll**. Chlorophyll is therefore the primary pigment involved in photosynthesis.",
+      "latency": 13.110252380371094,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [],
+        "found": [
+          "states of water",
+          "nutrition and respiration",
+          "respiratory pathways"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Provide an example of a significant event in Earth's geological history that had a major impact on the evolution of life.",
+    "reference": "One significant event is the Permian-Triassic extinction event, which occurred around 252 million years ago. This event, often referred to as the \"Great Dying,\" resulted in the extinction of approximately 96% of all marine species and 70% of terrestrial vertebrate species. It is believed to have been caused by massive volcanic eruptions in Siberia, leading to dramatic climate changes and the release of large amounts of greenhouse gases. This event had a profound impact on the evolution of life, as it cleared the way for the rise of the dinosaurs and the eventual evolution of mammals.",
+    "subject": "Biology",
+    "grade": 12,
+    "gold_prereqs": "Evolutionary Concepts",
+    "llm_only": {
+      "answer": "**The Cretaceous‑Paleogene (K‑Pg) Extinction – ~66 million years ago**\n\n- **What happened?**  \n  A massive asteroid (≈10 km diameter) struck the Yucatán Peninsula, creating the Chicxulub crater. The impact threw up dust, soot, and sulfur aerosols that blocked sunlight for months to years, causing a rapid “impact winter.” Simultaneously, massive volcanic eruptions (the Deccan Traps) released additional gases and aerosols, amplifying climate stress.\n\n- **Immediate geological signatures**  \n  • A worldwide thin layer of iridium‑rich clay at the K‑Pg boundary.  \n  • Shocked quartz and microtektites in sediments.  \n  • A sharp drop in carbonate deposition and a shift in sedimentation patterns.\n\n- **Biological consequences**  \n  • Extinction of ~75 % of all species, including all non‑avian dinosaurs, many marine reptiles, and numerous plant groups.  \n  • Survival of small, fast‑reproducing organisms (e.g., mammals, birds, crocodilians, some insects, and many plants).\n\n- **Evolutionary impact**  \n  The removal of dominant dinosaurian and marine‑reptile niches opened ecological space for mammals, birds, and flowering plants to diversify. This “adaptive radiation” ultimately led to the emergence of modern ecosystems and, eventually, the evolution of humans.\n\nThus, the K‑Pg impact event is a prime example of a geological catastrophe that reshaped the trajectory of life on Earth.",
+      "latency": 5.9287941455841064,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "One major geological event that profoundly shaped the evolution of life was the formation of the ozone layer. As early photosynthetic organisms produced oxygen, this oxygen reacted with ultraviolet (UV) radiation to create the ozone layer, which then shielded the planet’s surface from harmful UV rays. This protection allowed life to flourish and diversify on land and in the oceans【p_2483】.",
+      "latency": 1.1267311573028564,
+      "correctness": 1,
+      "groundedness": 3,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps – brief reminder**\n\n1. **Evolutionary concepts** – Evolution means that species change over very long periods. The changes are passed to the next generations, so populations become different over time.  \n2. **Evolutionary mechanisms** – The main drivers are *natural selection* (organisms better suited to their environment survive and reproduce), *genetic mutations* (random changes in DNA that create new traits), and *environmental factors* (climate, atmosphere, etc.) that can favour some traits over others【p_2392】.\n\n---\n\n**Example of a major geological event**\n\nOne of the most significant events in Earth’s geological history that dramatically shaped the evolution of life was the **formation of the ozone layer**.  \n\n- Early photosynthetic organisms produced oxygen, which reacted with ultraviolet (UV) radiation and created a protective ozone layer in the atmosphere.  \n- This ozone shield reduced the harmful UV rays reaching the surface, making the environment much safer for living organisms.  \n- With this protection, life could expand onto land and diversify into many new forms, accelerating evolutionary change【p_2483】.\n\nThus, the emergence of the ozone layer was a key geological milestone that opened new ecological opportunities and drove the evolution of more complex life.",
+      "latency": 11.354501962661743,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "gold": [
+          "evolutionary concepts"
+        ],
+        "found": [
+          "evolutionary mechanisms",
+          "evolutionary concepts"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Provide an example of a nutrient deficiency disease.",
+    "reference": "An example of a nutrient deficiency disease is scurvy, which is caused by a deficiency of Vitamin C.",
+    "subject": "Science",
+    "grade": 6,
+    "gold_prereqs": "Nutrition and Balanced Diet",
+    "llm_only": {
+      "answer": "**Scurvy – a disease caused by vitamin C (ascorbic) deficiency**\n\n- **Cause:** Inadequate intake of vitamin C, which is essential for collagen synthesis.\n- **Symptoms:** Fatigue, swollen and bleeding gums, joint pain, bruising easily, and poor wound healing.\n- **Prevention/Treatment:** Eating vitamin C‑rich foods such as citrus fruits, strawberries, bell peppers, or taking a vitamin C supplement. Once sufficient vitamin C is restored, symptoms improve within weeks.",
+      "latency": 1.3267853260040283,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "One example of a nutrient‑deficiency disease is **goitre**, which occurs when there is insufficient iodine in the diet. The material states that “iodine deficiency … caused a disease called goitre”【p_10631】.",
+      "latency": 4.704869031906128,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite (quick reminder)**  \n- **Nutrition & balanced diet:** Our bodies need many nutrients (vitamins, minerals, etc.) from the food we eat. If we don’t get enough of a particular nutrient, the body cannot work properly and a disease may develop.\n\n**Example of a nutrient‑deficiency disease**  \n- **Goitre** – a swelling at the front of the neck caused by lack of iodine in the diet. In the Northern plains of India the soil is low in iodine, so food and water contain little of it. When people did not get enough iodine, their thyroid gland enlarged, producing the disease called goitre. Giving people iodised salt (salt with added iodine) supplied the missing nutrient and reduced the swelling【p_10631】,【p_10634】,【p_10632】.  \n\n(Other examples from the material are beriberi (vitamin B1 deficiency), scurvy (vitamin C deficiency) and rickets (vitamin D deficiency), but goitre is a clear illustration.)",
+      "latency": 11.78759765625,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "gold": [
+          "nutrition and balanced diet"
+        ],
+        "found": [
+          "non-infectious diseases",
+          "blood and its components",
+          "nutrition and balanced diet"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Provide an example of a type of molecular motion that contributes to the internal energy of a gas, other than translational motion.",
+    "reference": "An example of a type of molecular motion that contributes to the internal energy of a gas, other than translational motion, is rotational motion. Additionally, vibrational motion also contributes to the internal energy of a gas.",
+    "subject": "Physics",
+    "grade": 11,
+    "gold_prereqs": "Thermodynamics Concepts",
+    "llm_only": {
+      "answer": "One important example is **rotational motion** of the molecules.  \n\nIn a gas composed of diatomic (or polyatomic) molecules, each molecule can rotate about its axes. These rotational degrees of freedom store kinetic energy just like translational motion does, and the average rotational energy per molecule (½ k_BT for each active rotational axis) contributes to the gas’s internal energy.  \n\n(Another example would be vibrational motion—periodic stretching and bending of bonds—but rotational motion is the simplest non‑translational contributor.)",
+      "latency": 5.4121925830841064,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "A gas’s internal energy also includes the energy of **rotational motion** of its molecules (the spinning of the molecule about its axes).  \n\n*Reference:* The passages state that internal energy “includes … rotational … motions of the molecules”【p_8182】 and that molecular degrees of freedom comprise “rotational (spinning)” motions【p_6704】.  \n\nThus, rotational motion is an example of a molecular motion, other than translational motion, that contributes to the internal energy of a gas.",
+      "latency": 11.260682344436646,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps (briefly)**  \n\n- **Thermodynamics concepts** – A gas is described by state variables (pressure, volume, temperature, internal energy). The internal energy \\(U\\) is a property of the state; it does not depend on how the gas reached that state.  \n\n- **Kinetic energy and temperature** – In a gas the molecules move randomly. The average kinetic energy of these random motions is proportional to the temperature (\\(\\langle E_{\\text{kin}}\\rangle = \\tfrac{3}{2}k_{B}T\\) for each translational degree of freedom).  \n\n- **Heat** – Heat is the transfer of energy between systems because of a temperature difference. When heat is added, the internal energy (i.e., the sum of molecular kinetic and potential energies) increases.\n\n---\n\n**Answer**\n\nBesides translational motion, **rotational motion** of the molecules also contributes to the internal energy of a gas.  \n\n- As described in the passages, internal energy includes the kinetic energies of translational, **rotational**, and vibrational motions of the molecules【p_8182】.  \n- For a diatomic molecule (e.g., \\(O_2\\) or \\(N_2\\)), the molecule can rotate about two axes perpendicular to the bond, giving two rotational degrees of freedom【p_7026】.  \n- Each rotational degree of freedom contributes an average energy of \\(\\tfrac{1}{2}k_{B}T\\) in thermal equilibrium【p_6704】, thus adding to the total internal energy.\n\nSo, the **spinning (rotational) motion of molecules** is a concrete example of a molecular motion—other than translation—that stores energy inside a gas. (Vibrational motion would be another example, but only one is required.)",
+      "latency": 9.5339195728302,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "gold": [
+          "thermodynamics concepts"
+        ],
+        "found": [
+          "thermodynamics concepts",
+          "temperature and heat",
+          "kinetic energy and distribution"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the three main phases of exponential growth.",
+    "reference": "The three main phases of exponential growth are the lag phase (slow initial growth), the exponential phase (rapid increase), and the stationary phase (slowdown due to limited resources).",
+    "subject": "Biology",
+    "grade": 11,
+    "gold_prereqs": "No Prerequisites",
+    "llm_only": {
+      "answer": "**Exponential growth** (as seen in populations, cultures, or any system that can multiply without immediate limits) is usually broken down into three successive phases:\n\n| Phase | What happens | Why it happens |\n|-------|--------------|----------------|\n| **1. Lag (or adaptation) phase** | The number of individuals (or amount of material) grows very slowly or not at all. | The system is adjusting to its new environment—cells are repairing damage, synthesizing enzymes, or organisms are finding resources. No net increase in numbers yet. |\n| **2. Exponential (log) phase** | The population doubles at a constant rate; growth is rapid and appears as a straight line on a semi‑log plot. | Resources (food, space, nutrients) are abundant, and each individual reproduces at its maximum intrinsic rate. The growth rate **r** is constant, so \\(N(t)=N_0 e^{rt}\\). |\n| **3. Stationary (or saturation) phase** | The net increase stops; the population size levels off. | Limiting factors (depleted nutrients, waste accumulation, competition, space) balance births with deaths. The growth rate drops to zero, and the system reaches a carrying capacity. |\n\nThese phases are a useful framework for describing anything that can multiply unchecked for a time—bacterial cultures, tumor cells, viral infections, or even certain economic or technological trends—before constraints curb the growth.",
+      "latency": 5.770564317703247,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "Exponential growth proceeds through three characteristic phases:\n\n1. **Lag phase** – The population (or other quantity) initially grows slowly. During this period the organisms or cells are adapting to their new environment and preparing for rapid division, so the overall increase is minimal【p_379†L1-L3】【p_1159†L1-L3】.\n\n2. **Exponential (log) phase** – Once adaptation is complete, the growth rate becomes proportional to the current amount, leading to a rapid, constant‑rate multiplication. The number of individuals doubles at regular intervals, producing the steep rise that defines exponential growth【p_379†L1-L3】【p_1159†L1-L3】.\n\n3. **Stationary phase** – As resources become limited or waste products accumulate, the growth rate slows and the population size levels off. The increase in number is balanced by losses, so the overall quantity remains roughly constant【p_379†L1-L3】【p_1159†L1-L3】.",
+      "latency": 9.420948505401611,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite note**  \nThe listed chemistry gaps (periodic table, atomic structure, stoichiometry) are not needed to understand the phases of exponential growth in biology, so you can focus directly on the biological concepts.\n\n**Three main phases of exponential growth**\n\n1. **Lag phase** – The population (or culture) is adjusting to its new environment. Cells are metabolically active but not yet dividing rapidly; they synthesize the enzymes and components needed for growth.\n\n2. **Exponential (log) phase** – Growth proceeds at its maximum rate. Each cell divides at a constant proportion, so the number of individuals doubles at regular intervals. The increase is described mathematically by \\(W(t)=W_0 e^{rt}\\), where the rate \\(r\\) is constant.\n\n3. **Stationary phase** – Growth slows and stops because resources become limited or waste products accumulate. The rate of new cell formation equals the rate of cell death, so the total population size remains roughly constant.  \n\nThese three phases are described in both the general description of exponential growth (p_379) and the specific example of bacterial growth (p_1159).",
+      "latency": 10.546585083007812,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [],
+        "found": [
+          "atomic structure and components",
+          "periodic table and element classification",
+          "basic concepts and stoichiometry"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the de Broglie wavelength and its significance in quantum mechanics.",
+    "reference": "The de Broglie wavelength is a measure of the wave-like properties of particles, given by the formula λ = h/p. It is significant in quantum mechanics as it explains the behavior of particles at the atomic and subatomic levels, where both wave-like and particle-like properties are exhibited.",
+    "subject": "Chemistry",
+    "grade": 11,
+    "gold_prereqs": "Atomic Structure and Components, Atomic Models and Quantum Theory",
+    "llm_only": {
+      "answer": "**De Broglie wavelength – what it is**\n\nIn 1924 Louis de Broglie proposed that every particle that has momentum **p** also has an associated wave‑like property. The wavelength of that “matter wave” is  \n\n\\[\n\\boxed{\\lambda = \\frac{h}{p}}\n\\]\n\nwhere  \n\n* \\(h\\) = Planck’s constant (≈ 6.626 × 10⁻³⁴ J·s)  \n* \\(p = mv\\) for a non‑relativistic particle (mass \\(m\\) and speed \\(v\\))  \n* For relativistic particles, \\(p = \\gamma mv\\) and the same formula still holds.\n\n---\n\n### Why it matters in quantum mechanics\n\n| Aspect | Explanation |\n|--------|-------------|\n| **Wave‑particle duality** | The de Broglie relation makes the dual nature of matter explicit: particles behave like waves with a wavelength set by their momentum. |\n| **Quantization of motion** | In bound systems (atoms, molecules, quantum wells) only those wavelengths that fit an integer number of half‑waves into the allowed region are permitted. This leads to discrete energy levels (e.g., electron orbitals). |\n| **Diffraction & interference** | When \\(\\lambda\\) is comparable to the size of an obstacle or slit, particles exhibit diffraction patterns, just as light does. Electron diffraction experiments (Davisson‑Germer, Thomson) confirmed the hypothesis. |\n| **Heisenberg uncertainty principle** | A well‑defined wavelength (i.e., a narrow spread in momentum) implies a delocalized particle, illustrating the trade‑off \\(\\Delta x\\,\\Delta p \\gtrsim \\hbar/2\\). |\n| **Practical applications** | • Electron microscopes: short electron \\(\\lambda\\) (≈ 0.005 nm at 100 keV) gives atomic‑scale resolution.<br>• Scanning tunneling microscopy (STM) relies on the wave nature of surface electrons.<br>• Neutron diffraction probes crystal structures because thermal neutrons have \\(\\lambda\\) ≈ 1 Å. |\n| **Transition to classical behavior** | For macroscopic objects, \\(p\\) is huge, so \\(\\lambda\\) becomes vanishingly small (e.g., a 1 kg object moving at 1 m/s has \\(\\lambda ≈ 6.6 × 10⁻³⁴\\) m). The wave effects are unobservable, and classical mechanics emerges. |\n\n---\n\n### Quick examples\n\n| Particle | Speed | Momentum \\(p\\) | Wavelength \\(\\lambda\\) |\n|----------|-------|----------------|------------------------|\n| Electron, 100 eV | \\(5.9 × 10⁶\\) m/s | \\(9.1 × 10⁻²⁴\\) kg·m/s | ≈ 0.12 nm (comparable to atomic spacing) |\n| Neutron, thermal (≈ 0.025 eV) | \\(2.2 × 10³\\) m/s | \\(3.6 × 10⁻²⁴\\) kg·m/s | ≈ 1.8 Å |\n| 1 g baseball, 30 m/s | 0",
+      "latency": 7.77219557762146,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "**De Broglie wavelength**\n\n- Every moving particle possesses a wave‑like character.  \n- The wavelength associated with a particle of momentum **p** (mass × velocity) is given by  \n\n\\[\n\\lambda = \\frac{h}{p}\n\\]\n\nwhere **h** is Planck’s constant (6.626 × 10⁻³⁴ J·s)【p_4397】.  \n- For a particle of mass **m** moving with velocity **v**, this can be written as \\(\\lambda = h/(mv)\\)【p_3596】.\n\n**Significance in quantum mechanics**\n\n- The de Broglie wavelength embodies the wave‑particle duality of matter: particles such as electrons behave like waves with a measurable wavelength【p_3754】.  \n- Because the wavelength is appreciable for sub‑atomic particles, it leads to observable phenomena such as electron and neutron diffraction, which are essential tools for probing molecular and crystal structures【p_4398】.  \n- For macroscopic objects the wavelength is extremely tiny and thus undetectable, highlighting why quantum‑wave effects are prominent only at the atomic scale【p_2617】.  \n\nThus, the de Broglie wavelength provides the quantitative link between a particle’s momentum and its wave nature, forming a cornerstone of quantum mechanics and enabling the explanation of many microscopic phenomena.",
+      "latency": 11.268421411514282,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Brief look at a prerequisite – atomic models and quantum theory**  \nBefore talking about the de Broglie wavelength, it helps to remember that modern atomic models (the Bohr model, then the quantum‑mechanical model) tell us that electrons are not tiny planets orbiting a nucleus. Instead, they behave both like particles **and** like waves. This “wave‑particle duality’’ is a central idea of quantum theory and is the background against which de Broglie made his proposal.\n\n---\n\n### What is the de Broglie wavelength?\n\n- **Definition** – Louis de Broglie suggested that *every moving object* has an associated wave. The wavelength (λ) of that wave is given by  \n\n\\[\n\\lambda = \\frac{h}{p}\n\\]\n\nwhere  \n\n- **h** = Planck’s constant = \\(6.626 \\times 10^{-34}\\; \\text{J·s}\\)  \n- **p** = momentum of the particle = mass × velocity  \n\n(see passages [p_4397], [p_4398], [p_3754], [p_2617], [p_3596]).\n\n- **Wave‑particle duality** – This formula expresses the idea that particles such as electrons possess a wave‑like property, just as light (which we already know can reflect, refract, and disperse) shows particle‑like behavior.\n\n---\n\n### Why is it important in quantum mechanics?\n\n1. **Explains diffraction of matter** – The wavelength calculated from λ = h/p is large enough for sub‑atomic particles (electrons, neutrons) to show diffraction patterns, just like light does. Experiments such as electron diffraction and neutron diffraction (mentioned in [p_4398]) directly confirm the wave nature of matter.\n\n2. **Distinguishes microscopic from macroscopic objects** – For everyday objects the mass is huge, so p is huge and λ becomes extremely tiny—far too small to detect (see [p_2617]). Hence we do not notice wave effects in daily life, but for particles with very small mass the wavelength is significant and must be considered.\n\n3. **Foundational for other quantum ideas** – The de Broglie wavelength underlies the Heisenberg Uncertainty Principle (see [p_3596]), because the wave‑like description of a particle means its position and momentum cannot both be known precisely.\n\n4. **Helps determine molecular structure** – Because particles can diffract, scientists use electron or neutron diffraction to probe the arrangement of atoms in molecules, a technique that would be impossible without recognizing the de Broglie wavelength.\n\n---\n\n**In short:** The de Broglie wavelength \\(\\lambda = h/p\\) tells us that any moving particle behaves like a wave whose wavelength depends on its momentum. This concept is a cornerstone of quantum mechanics, explaining phenomena such as electron diffraction, guiding the uncertainty principle, and allowing us to study the structure of matter at the atomic scale.",
+      "latency": 11.977931022644043,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "gold": [
+          "atomic structure and components",
+          "atomic models and quantum theory"
+        ],
+        "found": [
+          "reflection of light",
+          "dispersion and vision",
+          "atomic models and quantum theory"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the relationship between the binding energy of a nucleus and its stability.",
+    "reference": "The greater the binding energy per nucleon, the more stable the nucleus. A nucleus with higher binding energy is more tightly bound and thus more stable.",
+    "subject": "Physics",
+    "grade": 12,
+    "gold_prereqs": "Binding Energy and Mass Defect",
+    "llm_only": {
+      "answer": "**Binding energy and nuclear stability**\n\n| Concept | What it is | How it relates to stability |\n|---------|------------|----------------------------|\n| **Binding energy (BE)** | The energy that must be supplied to separate a nucleus into its individual protons and neutrons. It is equal to the mass‑defect × c². | The larger the total BE, the more energy is needed to pull the nucleus apart, so the nucleus is *more tightly bound*. |\n| **Binding energy per nucleon (BE/A)** | BE divided by the number of nucleons (A). It tells you, on average, how strongly each nucleon is held. | Nuclei with a high BE/A are generally the most stable because each nucleon is strongly bound. The curve of BE/A peaks near **\\(^{56}\\)Fe** (≈ 8.8 MeV per nucleon). |\n\n### Why a high BE/A → greater stability\n1. **Energy cost of disruption** – To remove a nucleon or to cause a reaction, you must supply at least the BE (or a fraction of it). If BE/A is large, the required energy is large, making spontaneous breakup unlikely.\n2. **Mass advantage** – A nucleus with a high BE has a lower mass than the sum of its separated nucleons. Since nature prefers lower‑energy (lower‑mass) configurations, such nuclei are favored.\n3. **Decay pathways** – If a nucleus can lower its total energy by emitting a particle (α, β, γ, etc.), it will do so. Nuclei with relatively low BE/A have many such pathways; those near the BE/A maximum have few or none, so they live longer.\n\n### The overall trend\n\n```\n   BE/A (MeV)\n   9 ──┐                     *\n       │                  *\n   8 ──┼─────*────*────*───*─────*─────*─────*─────*─────> A\n       │   ^   ^   ^   ^   ^   ^   ^   ^   ^   ^\n       │   |   |   |   |   |   |   |   |   |   |\n       │   Light nuclei (A<20) – fusion releases energy\n       │   Mid‑mass (A≈56) – most stable (iron‑peak)\n       │   Heavy nuclei (A>200) – fission releases energy\n```\n\n- **Light nuclei (A ≲ 20)**: BE/A rises rapidly with A. They gain stability by **fusing** (e.g., H → He).  \n- **Mid‑mass nuclei (A ≈ 40–60)**: BE/A reaches a maximum around \\(^{56}\\)Fe and \\(^{62}\\)Ni. These are the *most stable* isotopes; they neither gain energy by fusing nor by fission.  \n- **Heavy nuclei (A ≳ 150)**: BE/A slowly declines. They can lower their energy by **splitting** (fission) into two fragments with higher BE/A.\n\n### Exceptions & additional factors\n- **Neutron‑to‑proton ratio (N/Z)**: Even if BE/A is high, a nucleus far",
+      "latency": 6.4898154735565186,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The binding energy of a nucleus is directly linked to how stable that nucleus is.  \n- **Higher binding energy (especially per nucleon) means the nucleons are held together more tightly, so the nucleus is more stable.**  \n- Conversely, a nucleus with a lower binding energy is less tightly bound and therefore less stable.  \n\nThus, the binding energy—obtained from the mass defect via E = mc²—serves as a quantitative measure of nuclear stability; the larger the binding energy per nucleon, the greater the stability of the nucleus.",
+      "latency": 10.752151250839233,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite – Nuclear reactions (brief)**  \nIn a nuclear reaction the total binding energy of the products is compared with that of the reactants.  \nIf the products have a larger total binding energy, the extra energy is released (the reaction is exothermic); if they have a smaller total binding energy, energy must be supplied (the reaction is endothermic). This idea shows why binding energy is linked to the stability of a nucleus.\n\n**Relationship between binding energy and stability**\n\n- **Binding energy** is the energy needed to pull a nucleus apart into its separate protons and neutrons.  \n- The larger the **binding energy per nucleon** (binding energy divided by the number of nucleons), the more tightly the nucleons are held together, and the **more stable** the nucleus is.  \n- This is why binding energy is described as “a measure of the stability of a nucleus” in the NCERT passages [p_9521], [p_9525], [p_9519] and [p_9526].  \n- For nuclei with mass numbers between about 30 and 170, the binding energy per nucleon is roughly 8 MeV, giving them the highest stability [p_9526].  \n- In very large nuclei, most nucleons are inside the nucleus and adding more nucleons does not change the binding energy per nucleon much, so the stability does not increase significantly [p_9525].\n\n**In short:**  \nA nucleus is **more stable** when its binding energy per nucleon is **higher**; the energy released when nucleons combine (the binding energy) reflects how strongly they are bound together. Conversely, a nucleus with a low binding energy per nucleon is less stable and can more easily undergo nuclear reactions.",
+      "latency": 7.478721618652344,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "binding energy and mass defect"
+        ],
+        "found": [
+          "types of chemical bonds",
+          "nuclear reactions",
+          "bond characteristics and theories"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Provide an example of an event where you might get the opportunity to use a telescope.",
+    "reference": "A night sky watching event organized by a higher education institution or a local astronomy club.",
+    "subject": "Science",
+    "grade": 6,
+    "gold_prereqs": "Space Exploration and Astronomy",
+    "llm_only": {
+      "answer": "One classic example is a **community “star‑party” organized by a local astronomy club**.  \n\n- **What it is:** A public gathering held on a clear night (often on a weekend) where club members set up a variety of telescopes in a park, school field, or community center parking lot.  \n- **Why you get to use a telescope:** Visitors are invited to look through the club’s telescopes, and many clubs also let participants bring their own equipment or even try a “hands‑on” telescope that the club rotates among guests.  \n- **Typical sights:** The Moon’s craters, Jupiter and its moons, Saturn’s rings, bright star clusters (e.g., the Pleiades), and sometimes faint deep‑sky objects like the Orion Nebula.  \n\nAttending a star‑party gives you a relaxed, social setting where you can experience a telescope without needing to own one yourself.",
+      "latency": 6.653606414794922,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "An example is a **night‑sky‑watching event organized by a school, college or other educational institution**, where participants are given the chance to use telescopes to look at the Moon, planets and stars. (See p_11385.)",
+      "latency": 9.91726803779602,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Quick note on a prerequisite**\n\n- **Solar system and celestial bodies** – The solar system is the Sun and everything that moves around it: the Moon, the planets (like Earth, Mars, Jupiter) and many stars that we can see in the night sky. These objects are called *celestial bodies*.\n\n---\n\n### Example of an event where you can use a telescope  \n\nA **night‑sky‑watching event at a planetarium**.  \n\n- At a planetarium you can learn about the Moon, planets and stars during the day, and **at night you can use a telescope to observe them directly**【p_10239】.  \n- Many schools, science clubs and other educational institutions organize **night‑sky‑watching events** where telescopes are set up for the public to look at the sky【p_11385】.  \n\nDuring such an event you might point the telescope at the **Moon, a planet (e.g., Venus), or a constellation like the Big Dipper**, and see details that are invisible to the naked eye.",
+      "latency": 11.77192997932434,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "space exploration and astronomy"
+        ],
+        "found": [
+          "reflection of light",
+          "types of natural resources",
+          "solar system and celestial bodies"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Provide an example of an electromagnetic wave and state its frequency range.",
+    "reference": "An example of an electromagnetic wave is visible light, which has a frequency range of approximately 4.0 × 10¹â´ Hz to 7.9 × 10¹â´ Hz.",
+    "subject": "Physics",
+    "grade": 12,
+    "gold_prereqs": "Properties of Electromagnetic Waves, Electromagnetic Spectrum",
+    "llm_only": {
+      "answer": "**Example:** *Visible light* (the part of the spectrum we can see with our eyes).\n\n**Frequency range:**  \n- Approximately **4 × 10¹⁴ Hz** (red light) to **7.5 × 10¹⁴ Hz** (violet light).  \n\nSo a visible‑light electromagnetic wave has frequencies between about 400 THz and 750 THz.",
+      "latency": 7.366633176803589,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "**Example of an electromagnetic wave:**  \nX‑rays – they are mentioned in the passages as one of the types of electromagnetic radiation (see [p_9855] and [p_9856]).\n\n**Frequency range:**  \nThe provided NCERT passages describe that each type of electromagnetic wave has a specific range of frequencies, but they do **not** give the numerical values for those ranges. Therefore, the exact frequency range for X‑rays (or any other electromagnetic wave) is not stated in the given material.",
+      "latency": 8.8072988986969,
+      "correctness": 1,
+      "groundedness": 2,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Example:** Radio waves – they are produced when electrons are accelerated in an electric circuit 【p_9856】.  \n\n**Frequency range:** Radio waves occupy the **low‑frequency end** of the electromagnetic spectrum, i.e., they have the longest wavelengths and the smallest frequencies among all electromagnetic waves 【p_9855】【p_9857】. (The exact numerical limits are not given in the provided material.)",
+      "latency": 8.867068529129028,
+      "correctness": 1,
+      "groundedness": 2,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "electromagnetic spectrum",
+          "properties of electromagnetic waves"
+        ],
+        "found": []
+      }
+    }
+  },
+  {
+    "question": "Who is credited with the discovery of the electron?",
+    "reference": "J.J. Thomson",
+    "subject": "Science",
+    "grade": 9,
+    "gold_prereqs": "Structure of the Atom Basics, Isotopes and Isobars",
+    "llm_only": {
+      "answer": "The electron is credited to **J. J. Thomson**. In 1897, while studying cathode‑ray tubes, Thomson measured the charge‑to‑mass ratio of the particles in the rays and showed they were much lighter than atoms, establishing the existence of a universal, negatively‑charged subatomic particle that we now call the electron. (The term “electron” had been coined earlier by G. J. Stoney, but Thomson’s experiments provided the first experimental proof of its existence.)",
+      "latency": 6.273716926574707,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The provided passages discuss the discovery of protons and the atomic nucleus, but they do not contain any information about who discovered the electron. Therefore, I cannot answer that question from the given material.",
+      "latency": 10.85008716583252,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps (briefly)**  \n- **Electric field & electric potential** – These describe how charged particles (like electrons and protons) exert forces on each other and store energy.  \n- **Atomic structure and components** – Atoms are made of a tiny, dense, positively‑charged nucleus (discovered by Rutherford) surrounded by negatively‑charged electrons that occupy most of the atom’s volume.\n\n**Answer from the given material**  \nThe passages you have been provided discuss the discovery of protons and the nucleus, but none of them mention the scientist who discovered the electron. Therefore, based solely on the supplied NCERT excerpts, we cannot state who is credited with the discovery of the electron.",
+      "latency": 10.136250734329224,
+      "correctness": 1,
+      "groundedness": 3,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "structure of the atom basics",
+          "isotopes and isobars"
+        ],
+        "found": [
+          "atomic structure and components",
+          "electric field",
+          "electric potential"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Who developed the set of equations that describe the laws of electricity and magnetism?",
+    "reference": "James Clerk Maxwell",
+    "subject": "Physics",
+    "grade": 12,
+    "gold_prereqs": "No Prerequisites",
+    "llm_only": {
+      "answer": "The fundamental set of equations describing electricity and magnetism—known as **Maxwell’s equations**—were formulated by the Scottish physicist **James Clerk Maxwell** in the 1860s. His work unified earlier experimental laws (by Gauss, Faraday, Ampère, and others) into a coherent mathematical framework that underlies classical electromagnetism.",
+      "latency": 5.242934942245483,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "James Clerk Maxwell developed the set of equations that describe the fundamental laws of electricity and magnetism.",
+      "latency": 9.41404414176941,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Answer**  \nThe set of equations that describe the fundamental laws of electricity and magnetism was developed by **James Clerk Maxwell**【p_9368】.\n\n**Brief explanations of likely prerequisite gaps**\n\n1. **Electromagnets** – When an electric current flows through a coil of wire, it creates a magnetic field around the coil. This is the basic principle of an electromagnet: the magnetic field strength depends on the amount of current and the shape of the coil.\n\n2. **Electric field** – An electric field is a region around a charge where other charges experience a force. It is represented by field lines that point away from positive charges and toward negative charges. The electric field is one of the quantities that appears in Maxwell’s equations and determines how electric forces act at a distance.",
+      "latency": 8.198265314102173,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [],
+        "found": [
+          "electric field",
+          "electromagnets",
+          "hysteresis loop"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Derive the expression for the electric flux when the electric field makes an angle θ with the normal to the area.",
+    "reference": "The electric flux Φ is given by Φ = E DS cos(θ), where E is the electric field strength, DS is the area, and θ is the angle between the electric field and the normal to the area. This expression comes from the projection of the area normal to the electric field, which is DS cos(θ).",
+    "subject": "Physics",
+    "grade": 12,
+    "gold_prereqs": "Electric Potential",
+    "llm_only": {
+      "answer": "**Electric flux through a surface**\n\nThe electric flux \\(\\Phi_E\\) through a surface is defined as the surface integral of the electric‑field vector \\(\\mathbf{E}\\) dotted with an infinitesimal area vector \\(d\\mathbf{A}\\):\n\n\\[\n\\Phi_E = \\iint_S \\mathbf{E}\\cdot d\\mathbf{A}.\n\\]\n\n---\n\n### 1.  Area vector and its direction  \n\nFor a *flat* surface of area \\(A\\) the area vector is\n\n\\[\nd\\mathbf{A}= \\hat{\\mathbf{n}}\\, dA,\n\\]\n\nwhere \\(\\hat{\\mathbf{n}}\\) is a unit vector **normal** (perpendicular) to the surface.  \nIf the field is uniform over the surface, the integral reduces to a simple product:\n\n\\[\n\\Phi_E = \\mathbf{E}\\cdot \\int_S d\\mathbf{A}= \\mathbf{E}\\cdot (\\hat{\\mathbf{n}}A)= A\\,\\mathbf{E}\\cdot\\hat{\\mathbf{n}} .\n\\]\n\n---\n\n### 2.  Dot product and the angle \\(\\theta\\)\n\nThe dot product of two vectors \\(\\mathbf{E}\\) and \\(\\hat{\\mathbf{n}}\\) is\n\n\\[\n\\mathbf{E}\\cdot\\hat{\\mathbf{n}} = |\\mathbf{E}|\\,|\\hat{\\mathbf{n}}|\\cos\\theta = E\\cos\\theta,\n\\]\n\nwhere \\(\\theta\\) is the angle between the electric‑field direction and the outward normal to the surface.\n\n---\n\n### 3.  Flux expression\n\nSubstituting the dot product into the flux formula gives\n\n\\[\n\\boxed{\\Phi_E = EA\\cos\\theta }.\n\\]\n\n---\n\n### 4.  Interpretation  \n\n- **\\(\\theta = 0^\\circ\\)** (field perpendicular to the surface, same direction as the normal): \\(\\Phi_E = EA\\) – maximum flux.  \n- **\\(\\theta = 90^\\circ\\)** (field parallel to the surface): \\(\\Phi_E = 0\\) – no flux passes through.  \n- **\\(\\theta = 180^\\circ\\)** (field opposite to the normal): \\(\\Phi_E = -EA\\) – flux of opposite sign.\n\n---\n\n### 5.  General case (non‑uniform field)\n\nIf \\(\\mathbf{E}\\) varies over the surface, the same geometric factor appears locally:\n\n\\[\n\\Phi_E = \\iint_S E(\\mathbf{r})\\cos\\theta(\\mathbf{r})\\, dA,\n\\]\n\nwhere \\(\\theta(\\mathbf{r})\\) is the angle at each point \\(\\mathbf{r}\\) on the surface.\n\nThus, the factor \\(\\cos\\theta\\) accounts for the component of the electric field that actually pierces the surface.",
+      "latency": 6.34032940864563,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The electric flux through a surface is defined as the dot product of the electric‑field vector **E** and the area vector **A** (the vector whose magnitude is the area and whose direction is the outward normal).\n\n\\[\n\\Phi = \\mathbf{E}\\!\\cdot\\!\\mathbf{A}\n\\]\n\nIf the field makes an angle θ with the normal, the component of **E** that is perpendicular to the surface is  \n\n\\[\nE_{\\perp}=E\\cos\\theta .\n\\]\n\nOnly this normal component contributes to the flux. Multiplying the normal component by the total area gives\n\n\\[\n\\Phi = (E\\cos\\theta)\\,A = EA\\cos\\theta .\n\\]\n\nThus, when the electric field makes an angle θ with the normal to the area, the electric flux is  \n\n\\[\n\\boxed{\\Phi = EA\\cos\\theta }.\n\\]\n\n(See passages [p_8999] and [p_9002] for the same expression.)",
+      "latency": 8.921294689178467,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Brief note on a likely prerequisite – electric potential**  \nElectric potential is the amount of electric potential energy per unit charge at a point in space. Its gradient (how fast it changes from point to point) gives the electric field **E**:  \n\n\\[\n\\mathbf{E}= -\\nabla V\n\\]\n\nUnderstanding that the electric field is a vector quantity helps when we talk about its direction relative to a surface.\n\n---\n\n### Derivation of the electric‑flux formula\n\n1. **Define the area vector**  \n   For a flat surface of area \\(A\\), we introduce an **area vector** \\(\\mathbf{A}\\) whose magnitude equals the area and whose direction is **normal (perpendicular) to the surface**.\n\n2. **Use the dot product**  \n   Electric flux \\(\\Phi\\) through the surface is defined as the dot product of the electric‑field vector \\(\\mathbf{E}\\) and the area vector \\(\\mathbf{A}\\):\n\n   \\[\n   \\Phi = \\mathbf{E}\\!\\cdot\\!\\mathbf{A}\n   \\]\n\n   (see passages [p_8999], [p_9002], [p_9001]).\n\n3. **Express the dot product in terms of the angle**  \n   The dot product of two vectors equals the product of their magnitudes times the cosine of the angle \\(\\theta\\) between them:\n\n   \\[\n   \\mathbf{E}\\!\\cdot\\!\\mathbf{A}= EA\\cos\\theta\n   \\]\n\n   Here \\(\\theta\\) is the angle between the electric‑field direction and the **normal** to the area (the direction of \\(\\mathbf{A}\\)). This is exactly the statement in passages [p_8999] and [p_9003].\n\n4. **Result**  \n\n   \\[\n   \\boxed{\\displaystyle \\Phi = EA\\cos\\theta}\n   \\]\n\n   If the surface is broken into infinitesimal elements \\(d\\mathbf{S}\\), the same reasoning gives  \n\n   \\[\n   d\\Phi = \\mathbf{E}\\!\\cdot\\!d\\mathbf{S}=E\\,dS\\cos\\theta\n   \\]\n\n   (as in passages [p_8990] and [p_9002]).\n\nThus, when the electric field makes an angle \\(\\theta\\) with the normal to the area, the effective portion of the field that “passes through” the surface is reduced by the factor \\(\\cos\\theta\\), leading to the flux expression \\(\\Phi = EA\\cos\\theta\\).",
+      "latency": 11.98257851600647,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "gold": [
+          "electric potential"
+        ],
+        "found": [
+          "cyclotron motion",
+          "electric potential",
+          "ampere's law"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Provide an example of a material that follows Hooke's Law and explain how it behaves under stress.",
+    "reference": "A metal spring is a good example of a material that follows Hooke's Law. When a small weight is hung from the spring, it stretches proportionally to the weight (stress), and the amount of stretch (strain) is directly proportional to the weight. If the weight is removed, the spring returns to its original length, demonstrating elastic behavior.",
+    "subject": "Physics",
+    "grade": 11,
+    "gold_prereqs": "Elasticity and Moduli",
+    "llm_only": {
+      "answer": "**Example:** *Mild steel* (or any well‑tempered steel rod) behaves according to Hooke’s Law as long as the applied load stays within its elastic limit.\n\n**How it behaves under stress**\n\n| Step | What happens | Why it follows Hooke’s Law |\n|------|--------------|----------------------------|\n| 1. Apply a tensile (pulling) force | The steel rod elongates. | The stress (σ = force/area) and the resulting strain (ε = change in length/original length) are proportional: **σ = E · ε**, where *E* is Young’s modulus for steel (≈ 200 GPa). |\n| 2. Increase the force gradually (still below the elastic limit) | The elongation increases linearly with the force. | The linear σ‑ε relationship holds; the slope of the line on a stress‑strain graph is the constant *E*. |\n| 3. Reach the elastic limit | The rod is stretched to its maximum reversible length. | Up to this point the material stores elastic potential energy but no permanent deformation occurs. |\n| 4. Remove the force | The rod returns to its original length. | Because the deformation was elastic, the internal restoring forces bring the material back, confirming the reversible, linear behavior predicted by Hooke’s Law. |\n\n**Key points to remember**\n\n- **Hooke’s Law:** σ = E · ε (stress is proportional to strain).  \n- It is valid **only within the elastic region**; beyond the elastic limit the material yields and the relationship becomes non‑linear.  \n- The proportionality constant *E* (Young’s modulus) is a material property; for mild steel it is about 200 GPa, indicating a very stiff material.  \n\nThus, a mild‑steel rod under moderate tension is a classic, real‑world example of a material that obeys Hooke’s Law.",
+      "latency": 6.445952653884888,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The passages you provided explain Hooke’s Law and how stress and strain are related for any material that remains within its elastic limit, but they do not mention a specific material that follows this law. Therefore, based on the given material, I cannot name an example of a particular material.",
+      "latency": 11.160606384277344,
+      "correctness": 1,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Quick recap of the likely gaps**\n\n1. **States of water** – Water can exist as solid (ice), liquid (water) or gas (steam). Changing the temperature can move it from one state to another.  \n2. **Temperature and heat** – Temperature tells how hot or cold something is; heat is the energy that flows because of a temperature difference. When a material is heated, its particles move faster and it may expand, which can affect how it deforms under a load.\n\n---\n\n### Example of a material that follows Hooke’s Law  \n\nA common example is a **metal spring (e.g., a steel spring)**.\n\n**How it behaves under stress**\n\n- **Linear relationship:** As the spring is pulled (tensile stress) or compressed, the **stress (force per unit area)** is directly proportional to the **strain (relative change in length)**, exactly as described in the passages: “for small deformations, the stress is directly proportional to the strain” [p_7705], [p_6977], [p_6975].\n- **Elastic limit:** While the applied force stays within the **elastic limit**, the spring stretches or compresses **linearly** on the stress‑strain curve (the straight‑line portion from point O to A) [p_6780].  \n- **Recovery:** When the load is removed, the spring **returns to its original shape and size** because of its elasticity [p_6792], [p_6780].  \n- **Beyond the limit:** If the force exceeds the yield point (point B), the material deforms plastically and will not fully regain its original length [p_6780].\n\nThus, a steel spring obeys Hooke’s Law: **stress = (modulus of elasticity) × strain**, giving a predictable, linear deformation until the material’s elastic limit is reached.",
+      "latency": 11.684287309646606,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "elasticity and moduli"
+        ],
+        "found": [
+          "states of water",
+          "sustainability and waste management",
+          "temperature and heat"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the concept of biodiversity and its importance.",
+    "reference": "Biodiversity is the variety of life forms at genetic, species, and ecosystem levels. It is important because it supports ecosystem services, provides resources for medicine and agriculture, and maintains ecological balance.",
+    "subject": "Science",
+    "grade": 8,
+    "gold_prereqs": "Conservation Methods, Ecosystem and Sustainability",
+    "llm_only": {
+      "answer": "**Biodiversity** – the variety of life on Earth – is usually described at three nested levels:\n\n| Level | What it means | Example |\n|-------|---------------|---------|\n| **Genetic diversity** | The range of genetic information within a species. | Different wheat varieties that resist drought or disease. |\n| **Species diversity** | The number of different species and their relative abundances. | A forest that contains oak, maple, pine, deer, birds, fungi, etc. |\n| **Ecosystem diversity** | The variety of habitats, ecological processes, and interactions among communities. | Wetlands, coral reefs, grasslands, and the services they provide. |\n\n---\n\n## Why biodiversity matters\n\n| Reason | How it helps us and the planet |\n|--------|--------------------------------|\n| **Ecosystem stability & resilience** | Diverse communities are better able to withstand disturbances (e.g., disease, climate extremes) because multiple species can fill similar roles (functional redundancy). |\n| **Provision of ecosystem services** | • **Food & agriculture:** genetic variation supplies crops and livestock with traits for yield, nutrition, and stress tolerance.<br>• **Clean water & air:** wetlands filter pollutants; forests capture carbon and produce oxygen.<br>• **Pollination & pest control:** insects and birds move pollen and keep herbivore populations in check. |\n| **Medicinal and industrial resources** | Over 50 % of modern drugs are derived from natural compounds (e.g., aspirin from willow bark, anticancer agents from Pacific yew). |\n| **Economic value** | Tourism, fisheries, forestry, and biotechnology generate billions of dollars annually; loss of species can collapse these industries. |\n| **Cultural and intrinsic value** | Many societies base traditions, spiritual practices, and identities on local flora and fauna. Many people also argue that all living beings have a right to exist. |\n| **Scientific knowledge** | Diverse organisms provide models for studying biology, genetics, ecology, and evolution, leading to new technologies and insights. |\n\n---\n\n### Bottom line\nBiodiversity is the web of genetic, species, and ecosystem variety that underpins the functioning of the planet. Maintaining it safeguards the natural services we rely on for food, health, climate regulation, and cultural well‑being, while also giving us the flexibility to adapt to future challenges. Protecting biodiversity is therefore both an ecological necessity and a practical investment in human prosperity.",
+      "latency": 5.321264982223511,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "**Concept of biodiversity**  \n- Biodiversity is the variety of life at all levels – genetic, species and ecosystem – on Earth. It includes the many different species of plants, animals and microorganisms and the ecosystems they form【p_13150】,【p_13155】.  \n\n**Why biodiversity is important**  \n- It is crucial for the health of our planet and for maintaining the balance of ecosystems【p_13149】.  \n- Diverse ecosystems provide natural resources, support food webs and help regulate environmental processes, making them essential for sustainable human life.  \n- Protecting biodiversity through reserves, parks and conservation programmes safeguards endangered and endemic species and preserves the natural heritage for future generations【p_13155】【p_13154】.  \n\nThus, biodiversity is the rich variety of living forms and their habitats, and its importance lies in sustaining ecological balance, supporting life‑supporting services, and ensuring the survival of species and ecosystems.",
+      "latency": 10.444340705871582,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Brief look at the prerequisite ideas**\n\n1. **Diversity and classification** – *Diversity* means the many different kinds of living things that exist. Scientists group (classify) these organisms into categories such as species, families, orders, etc., so that we can study and understand the relationships among them.\n\n2. **Why forests matter** – Forests are large natural habitats that contain a huge number of plant, animal and microbial species. They provide food, shelter, clean air and water, and they help keep the climate stable. Because of this, forests are a major part of the Earth’s overall biodiversity.\n\n---\n\n### What is biodiversity?\n\n- **Biodiversity = “the variety of life.”**  \n  It includes every level of life:  \n  * **Genetic diversity** – the different genes within a species.  \n  * **Species diversity** – the many different species of plants, animals and microorganisms.  \n  * **Ecosystem diversity** – the variety of habitats (forests, rivers, mountains, etc.) and the ecological processes that occur in them.  \n\n  (From [p_13150] and [p_13155]).\n\n- It is the **sum of all living forms** on Earth and the **interactions among them** in their natural habitats. Regions such as the Himalayan peaks and the Western Ghats are highlighted as places with especially high biodiversity because they host many different species. (From [p_13149]).\n\n---\n\n### Why is biodiversity important?\n\n1. **Health of the planet** – A rich mix of species and ecosystems keeps natural processes (like nutrient cycling, pollination, and climate regulation) working smoothly. This overall balance is essential for the Earth’s health. (From [p_13149]).\n\n2. **Supports human needs** – Many of the foods, medicines, fibers and other resources we use come from diverse species. When biodiversity is lost, these resources become scarce.\n\n3. **Resilience** – Ecosystems with many species can better withstand disturbances (e.g., disease, climate change) because some organisms can take over the roles of those that are affected.\n\n4. **Conservation value** – Protecting biodiversity means safeguarding endangered and endemic species, many of which exist only in specific habitats like forests or mountain ranges. Efforts such as wildlife sanctuaries, biosphere reserves, and national parks are created to keep these habitats intact. (From [p_13155], [p_13154]).\n\n5. **Cultural and educational importance** – Knowing about the variety of life encourages respect for nature and motivates people—students, communities, governments—to act responsibly, such as reducing waste, planting trees, and supporting laws that protect natural areas. (From [p_13149]).\n\n---\n\n### In short\n\nBiodiversity is the total variety of living things—genes, species, and ecosystems—found on Earth. It is crucial because it maintains ecological balance, provides resources and services we depend on, makes ecosystems resilient to change, and underpins conservation actions that protect our natural heritage for future generations.",
+      "latency": 12.79813814163208,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "conservation methods",
+          "ecosystem and sustainability"
+        ],
+        "found": [
+          "habitats and adaptation",
+          "importance of forests",
+          "diversity and classification"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Provide an example of a device that changes a low-voltage into a high-voltage.",
+    "reference": "A step-up transformer changes a low-voltage into a high-voltage.",
+    "subject": "Physics",
+    "grade": 12,
+    "gold_prereqs": "Transformers in AC",
+    "llm_only": {
+      "answer": "**Example: A step‑up (boost) transformer**\n\nA transformer with a turns ratio greater than 1:1 is the classic device that takes a low‑voltage input and produces a proportionally higher voltage at its output.  \n\n- **How it works:** An alternating‑current (AC) voltage is applied to the primary winding. The changing magnetic flux links the secondary winding, inducing a voltage that is scaled by the turns ratio \\(V_{\\text{out}} = (N_{\\text{sec}}/N_{\\text{pri}}) \\times V_{\\text{in}}\\).  \n- **Typical use:** Power‑supply units for CRT monitors, microwave ovens, or high‑voltage laboratory supplies often use a step‑up transformer to raise a mains‑level (e.g., 120 V or 230 V) to several kilovolts.\n\nOther common low‑to‑high voltage converters include boost (step‑up) DC‑DC converters and voltage‑multiplier circuits, but the step‑up transformer is the most straightforward and widely recognized example.",
+      "latency": 6.4535768032073975,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "A **step‑up transformer** is a device that converts a low voltage into a higher voltage. As described in the material, a transformer can increase the voltage level, and the ratio of turns in the secondary coil to the primary coil determines whether the voltage is stepped up or stepped down【p_8645】.",
+      "latency": 10.236557483673096,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite (brief)**  \n- **Electric current and circuits** – In a circuit a **voltage** (electric potential difference) pushes charge, producing an **electric current**. The amount of current that flows depends on the voltage applied and the resistance of the path (Ohm’s law).  \n\n**Device that raises a low voltage to a high voltage**  \n- A **step‑up transformer**.  \n  - It consists of two coils (primary and secondary) wound on a soft‑iron core. When an alternating current flows in the primary, a changing magnetic field is produced, which induces a voltage in the secondary (mutual induction) [p_8641].  \n  - Because the secondary coil has **more turns than the primary** (Ns > Np), the induced voltage is larger than the applied voltage, i.e., the transformer “steps up” the voltage [p_8645].  \n\nThus, a step‑up transformer is a common device that converts a low‑voltage input into a higher‑voltage output.",
+      "latency": 8.190152168273926,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "transformers in ac"
+        ],
+        "found": [
+          "electric current and circuits",
+          "capacitors in circuits",
+          "introduction to electricity"
+        ]
+      }
+    }
+  },
+  {
+    "question": "What is the elastic limit of a typical rock as mentioned in the text?",
+    "reference": "The elastic limit of a typical rock is 30 × 10^7 N m^-2.",
+    "subject": "Physics",
+    "grade": 11,
+    "gold_prereqs": "Elasticity and Moduli, Elastic Energy and Ratios",
+    "llm_only": {
+      "answer": "The text notes that a typical rock will behave elastically only up to a very small strain—on the order of 10⁻³ (about 0.1 % elongation). In terms of stress, this corresponds to an elastic‑limit (yield) stress of roughly 10⁸ – 10⁹ Pa (≈ 100 – 200 MPa). Beyond that point the rock begins to deform plastically.",
+      "latency": 5.273035526275635,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The passages explain what the elastic limit is and how it is used to determine the maximum height of a mountain, but they do **not** give a numerical value for the elastic limit of a typical rock.",
+      "latency": 10.235668659210205,
+      "correctness": 1,
+      "groundedness": 1,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps – brief recap**\n\n1. **Elasticity and moduli** – When a force is applied to a material it deforms. If the force is removed and the material returns to its original shape, the deformation was **elastic**. The **elastic limit** (or yield point) is the greatest stress the material can sustain while still behaving elastically. Beyond this limit the deformation becomes permanent (plastic). The relationship between stress and strain in the elastic region is given by **Hooke’s law**, and the proportionality constants are the **moduli** (e.g., shear modulus G, bulk modulus B).\n\n2. **Fluid statics and pressure** – Pressure in a fluid is the force per unit area transmitted equally in all directions. In solids, the analogous quantity is **stress** (force per unit area), which can act normal to a surface (normal stress) or parallel to it (shear stress).\n\n3. **Energy types and conservation** – When forces do work on a body, energy can be stored as **elastic potential energy** (recoverable) or dissipated as heat if the material yields. The total energy in an isolated system remains constant (conservation of energy).\n\n---\n\n**Answer to the question**\n\nThe passages you provided describe the **elastic limit** as “the maximum stress a material can endure without being permanently deformed” and explain that when the shear stress at the base of a mountain exceeds the rock’s elastic limit, the rock will deform plastically. However, **the text does not give a numerical value for the elastic limit of a typical rock**. It only refers to the concept qualitatively to explain how the height of a mountain is limited. Therefore, based on the supplied material, we cannot state a specific numeric elastic‑limit value for rock.",
+      "latency": 10.217561721801758,
+      "correctness": 1,
+      "groundedness": 2,
+      "gap_metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "gold": [
+          "elastic energy and ratios",
+          "elasticity and moduli"
+        ],
+        "found": [
+          "fluid statics and pressure",
+          "energy types and conservation",
+          "elasticity and moduli"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the main focus of André-Marie Ampère's experiments in electrodynamics.",
+    "reference": "Ampère's experiments focused on exploring the relationship between current electricity and magnetism.",
+    "subject": "Physics",
+    "grade": 12,
+    "gold_prereqs": "Magnetic Field Due to a Current, Ampere's Law, Magnetic Moment, Electromagnetic Induction",
+    "llm_only": {
+      "answer": "André‑Marie Ampère’s experiments were centered on **how electric currents produce magnetic effects and how those magnetic fields act on other currents**.  \n\nKey points of his work include:\n\n1. **Interaction of parallel conductors** – He placed two current‑carrying wires side by side and measured the force of attraction or repulsion between them, showing that the force depends on the magnitude of the currents, the length of the conductors, and the distance separating them.\n\n2. **Magnetic field of a straight current** – By using a magnetic needle (or a compass) near a current‑carrying wire, Ampère demonstrated that a steady electric current creates a circular magnetic field around the wire, the direction of which follows the right‑hand rule.\n\n3. **Quantitative law (Ampère’s law)** – From his measurements he derived the proportionality that the line integral of the magnetic field around a closed loop equals μ₀ times the total current enclosed, the relation that later became known as Ampère’s circuital law.\n\n4. **Force on a current element** – He showed that a small segment of a current‑carrying conductor experiences a force **dF = I dℓ × B**, linking the magnetic field **B** produced by other currents to the mechanical force on the segment.\n\nOverall, Ampère’s experiments established that **electric currents are the source of magnetic fields and that those fields exert forces on other currents**, laying the experimental foundation for the whole field of electrodynamics.",
+      "latency": 6.85289192199707,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "André‑Marie Ampère’s experiments in electrodynamics were aimed at uncovering **the relationship between electric currents and magnetic fields**—that is, how electricity and magnetism interact with one another. (See p_9038.)",
+      "latency": 11.356182336807251,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Brief notes on likely gaps**\n\n1. **Ampère’s Law** – It tells us that the magnetic field around a closed loop is directly related to the electric current that passes through the loop. In simple terms, a current‑carrying wire creates a magnetic field, and the strength of that field depends on how much current flows.\n\n2. **Electromagnetic induction** – This is the phenomenon where a changing magnetic field produces an electric current in a nearby conductor (and vice‑versa). It shows that electric and magnetic fields can generate each other.\n\n---\n\n**Main focus of Ampère’s experiments**\n\nAndré‑Marie Ampère’s experiments in electrodynamics were aimed at uncovering **how electric currents and magnetic fields are linked**. He investigated the effect of circulating electric currents on magnetic phenomena and showed that **all magnetic effects arise from electric currents**. His work established the fundamental relationship that later became known as **Ampère’s Law**, which relates the magnetic field around a closed loop to the current passing through that loop. This laid the foundation for the whole theory of electromagnetism.",
+      "latency": 9.32277774810791,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "gold": [
+          "magnetic field due to a current",
+          "magnetic moment",
+          "electromagnetic induction",
+          "ampere's law"
+        ],
+        "found": [
+          "cyclotron motion",
+          "electromagnetic induction",
+          "ampere's law"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the role of leaves in the process of photosynthesis.",
+    "reference": "Leaves act as the food factories of plants. They contain chloroplasts, which use light energy to convert water and carbon dioxide into glucose and oxygen. This process provides the energy needed for the plant's growth and survival.",
+    "subject": "Science",
+    "grade": 7,
+    "gold_prereqs": "Photosynthesis and Autotrophs",
+    "llm_only": {
+      "answer": "**Leaves are the primary “solar panels” of a plant, and they carry out most of the work in photosynthesis.** Their structure is specially adapted to capture light energy, take in carbon dioxide, and release oxygen. Here’s how each part of a leaf contributes to the process:\n\n| Leaf component | Function in photosynthesis |\n|----------------|----------------------------|\n| **Blade (lamina)** | Large, thin surface maximizes exposure to sunlight. |\n| **Chloroplasts** (in the palisade and spongy mesophyll) | Contain chlorophyll that absorbs light and houses the biochemical reactions that convert CO₂ + H₂O into sugars. |\n| **Palisade mesophyll** | Tightly packed cells with many chloroplasts; the main site of light‑dependent reactions. |\n| **Spongy mesophyll** | Loosely arranged cells with air spaces that facilitate diffusion of gases (CO₂ in, O₂ out). |\n| **Stomata** (tiny pores on the underside) | Open and close to regulate gas exchange—CO₂ enters, O₂ and excess water vapor exit. |\n| **Guard cells** (surround each stoma) | Control stomatal opening by changing shape in response to light, humidity, and internal CO₂ levels. |\n| **Vascular bundles (xylem & phloem)** | Xylem transports water and dissolved minerals from the roots to the leaf; phloem carries the sugars produced in the leaf to the rest of the plant. |\n\n### Step‑by‑step role of the leaf in photosynthesis\n\n1. **Light capture** – Chlorophyll in the chloroplasts absorbs photons, especially in the blue and red wavelengths.\n2. **Water uptake** – Water drawn up through the xylem reaches the leaf’s mesophyll cells.\n3. **CO₂ intake** – CO₂ diffuses from the air into the leaf through open stomata.\n4. **Light‑dependent reactions** – Inside the thylakoid membranes of chloroplasts, light energy splits water (photolysis), releasing O₂ (which exits via stomata) and generating ATP and NADPH.\n5. **Calvin cycle (light‑independent reactions)** – In the stroma, ATP and NADPH power the fixation of CO₂ into glucose and other carbohydrates.\n6. **Distribution** – The produced sugars are loaded into the phloem and transported to roots, stems, fruits, and storage organs.\n\n### Why leaves are so effective\n\n- **Large surface‑to‑volume ratio** → maximizes light absorption and gas exchange.\n- **Thin, flat shape** → minimizes the distance for CO₂ to travel to chloroplasts.\n- **Layered mesophyll** → separates light capture (palisade) from gas diffusion (spongy), optimizing both processes.\n- **Stomatal regulation** → balances the need for CO₂ with water loss, allowing photosynthesis to continue under varying environmental conditions.\n\nIn short, leaves integrate light harvesting, water supply, CO₂ uptake, and sugar production into a compact, highly efficient organ that fuels the entire plant’s growth and metabolism.",
+      "latency": 6.027911186218262,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "Leaves are the main “food‑factory’’ of a plant. They contain the chlorophyll‑rich cells where sunlight is captured and, together with carbon‑dioxide taken in from the air and water supplied from the roots, the plant synthesises its own food (glucose).  \n\n* **Gas exchange:** Tiny pores on the leaf surface called **stomata** allow carbon‑dioxide to enter and oxygen to leave. Each stoma is surrounded by guard cells that open or close the pore, regulating this exchange【p_12386】.  \n* **Water and mineral supply:** Water and essential minerals are carried to the leaf through specialised vessels that run from the roots, through the stem, into the leaf, providing the raw materials needed for photosynthesis【p_12385】.  \n* **Site of photosynthesis:** Within the leaf cells, the captured light energy, carbon‑dioxide and water are combined to produce food (glucose) and release oxygen【p_12535】【p_12539】.  \n\nThus, leaves play the crucial role of gathering light, taking in carbon‑dioxide, receiving water and minerals, and carrying out the chemical reactions that produce the plant’s food.",
+      "latency": 10.853033304214478,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Quick look at the missing ideas**\n\n1. **Photosynthesis & autotrophs** – Green plants are *autotrophs*: they can make their own food. They do this by a process called **photosynthesis**, where light energy is turned into chemical energy (glucose) using carbon‑dioxide (CO₂) and water (H₂O).\n\n2. **Nutrition & respiration** – The food (glucose) made in photosynthesis is used by the plant for growth and for **respiration**, the process that releases energy from glucose and gives off carbon‑dioxide.\n\n---\n\n### Role of leaves in photosynthesis (grade‑7 NCERT)\n\n- **Main food‑making organ** – Leaves have the “remarkable ability to make their own food” through photosynthesis (p_12386, p_12385, p_12387). The chloroplasts inside leaf cells contain **chlorophyll**, the pigment that captures sunlight (p_12535).\n\n- **Gathering raw materials**  \n  * **Carbon‑dioxide** enters the leaf through tiny pores called **stomata** (p_12386, p_12385).  \n  * **Water and minerals** are delivered from the roots to the leaf by specialized **vessels** that run through the stem (p_12386, p_12385).  \n\n- **Regulating gas exchange** – Each stoma is surrounded by **guard cells** that open or close the pore, controlling how much CO₂ comes in and how much oxygen (O₂) goes out (p_12386, p_12385).\n\n- **Putting it together** – Inside the leaf, chlorophyll uses **sunlight**, the incoming CO₂, and the water/minerals supplied by the vessels to carry out photosynthesis. The result is **glucose (food) for the plant** and the release of **oxygen** into the air (p_12535, p_12539).\n\n**In short:** Leaves act as the plant’s solar‑powered kitchen. They capture light, take in CO₂ through stomata, receive water/minerals via vessels, and, with chlorophyll, convert these ingredients into glucose (the plant’s food) while releasing oxygen. This makes leaves essential for the whole plant’s growth and survival.",
+      "latency": 11.671141862869263,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "gold": [
+          "photosynthesis and autotrophs"
+        ],
+        "found": [
+          "photosynthesis and autotrophs",
+          "nutrition and respiration",
+          "respiratory pathways"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Recall the formula for calculating the mole fraction of a component in a solution.",
+    "reference": "The mole fraction (X) of a component in a solution is calculated using the formula:",
+    "subject": "Chemistry",
+    "grade": 12,
+    "gold_prereqs": "Raoult's Law and Ideal Solutions, Non-ideal Solutions",
+    "llm_only": {
+      "answer": "The mole fraction of component *i* (denoted \\(X_i\\)) is the ratio of the amount of that component (in moles) to the total amount of all components in the mixture:\n\n\\[\n\\boxed{X_i \\;=\\; \\frac{n_i}{\\displaystyle\\sum_{j} n_j}}\n\\]\n\nwhere  \n\n- \\(n_i\\) = moles of component *i*  \n- \\(\\sum_{j} n_j\\) = sum of the moles of every component present.\n\nFor a binary (two‑component) solution this reduces to  \n\n\\[\nX_A = \\frac{n_A}{n_A + n_B}, \\qquad\nX_B = \\frac{n_B}{n_A + n_B},\n\\]\n\nand \\(X_A + X_B = 1\\). The same principle applies to multicomponent mixtures.",
+      "latency": 7.479360818862915,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The mole fraction of a component \\(i\\) in a solution is calculated as  \n\n\\[\nx_i = \\frac{\\text{Number of moles of component } i}{\\text{Total number of moles of all components in the mixture}}\n\\]\n\nFor a binary mixture of components A and B, this becomes  \n\n\\[\nx_A = \\frac{n_A}{n_A + n_B}\n\\]\n\nwhere \\(n_A\\) and \\(n_B\\) are the moles of A and B, respectively. (Source: [p_5799])",
+      "latency": 11.157742738723755,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Quick recap of a key prerequisite – moles (basic stoichiometry)**  \nBefore using the mole‑fraction formula you need to know what a *mole* is: it is a way of counting particles (atoms, molecules, ions) so that 1 mol always contains Avogadro’s number (≈ 6.02 × 10²³) of them. Once you can convert a mass of a substance to the number of moles, you can apply the mole‑fraction expression.\n\n---\n\n### Formula for the mole fraction  \n\nThe mole fraction of a component \\(i\\) in any mixture or solution is the ratio of the number of moles of that component to the total number of moles of **all** components:\n\n\\[\n\\boxed{\\,x_i = \\frac{n_i}{\\displaystyle\\sum_{j} n_j}\\,}\n\\]\n\n- \\(n_i\\) = moles of the component of interest.  \n- \\(\\sum_{j} n_j\\) = sum of the moles of every component present.\n\n**For a binary (two‑component) mixture** of A and B, this reduces to:\n\n\\[\nx_A = \\frac{n_A}{n_A + n_B}\n\\]\n\nand similarly \\(x_B = \\frac{n_B}{n_A + n_B}\\).\n\nThe mole fractions always add up to 1:\n\n\\[\nx_A + x_B (+ x_C + \\dots) = 1\n\\]\n\nThese expressions come directly from the NCERT passages on mole fraction.",
+      "latency": 10.039796590805054,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "non-ideal solutions",
+          "raoult's law and ideal solutions"
+        ],
+        "found": [
+          "electronic configuration",
+          "introduction to organic chemistry",
+          "basic concepts and stoichiometry"
+        ]
+      }
+    }
+  },
+  {
+    "question": "What is the formula for Ohm's Law?",
+    "reference": "The formula for Ohm's Law is V = IR, where V is the potential difference, I is the current, and R is the resistance.",
+    "subject": "Science",
+    "grade": 10,
+    "gold_prereqs": "Resistance and Ohm’s Law",
+    "llm_only": {
+      "answer": "Ohm’s Law relates voltage (V), current (I), and resistance (R) in an electrical circuit:\n\n\\[\n\\boxed{V = I \\times R}\n\\]\n\nFrom this you can also solve for the other quantities:\n\n- **Current:** \\( I = \\dfrac{V}{R} \\)\n- **Resistance:** \\( R = \\dfrac{V}{I} \\)\n\nWhere  \n- \\(V\\) is the voltage (volts, V)  \n- \\(I\\) is the current (amperes, A)  \n- \\(R\\) is the resistance (ohms, Ω)",
+      "latency": 6.75139045715332,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The formula for Ohm’s Law is  \n\n**V = I R**  \n\nwhere V is the voltage, I is the current, and R is the resistance. (See passages [p_15998], [p_16001], [p_15989], [p_15990].)",
+      "latency": 8.600414276123047,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Brief note on a key prerequisite – series circuits**  \nIn a series circuit the same current flows through every component, and the total resistance is just the sum of the individual resistances ( \\(R_{\\text{total}} = R_1 + R_2 + \\dots\\) ). Knowing this helps you see how the voltage supplied by a battery is shared among the components, which is exactly what Ohm’s Law relates.\n\n**Formula for Ohm’s Law**  \nOhm’s Law states that the voltage ( \\(V\\) ) across a conductor is directly proportional to the current ( \\(I\\) ) flowing through it and inversely proportional to its resistance ( \\(R\\) ). The mathematical expression is:\n\n\\[\n\\boxed{V = I R}\n\\]\n\nwhere  \n- \\(V\\) = potential difference (volts)  \n- \\(I\\) = current (amperes)  \n- \\(R\\) = resistance (ohms)  \n\nThis relationship is given in the NCERT passages [p_15998], [p_16001], [p_15989] and [p_15990].",
+      "latency": 8.806603908538818,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "resistance and ohm’s law"
+        ],
+        "found": [
+          "electric power",
+          "introduction to electricity",
+          "series and parallel circuits"
+        ]
+      }
+    }
+  },
+  {
+    "question": "What are the three main conditions required for seed germination?",
+    "reference": "The three main conditions required for seed germination are water, oxygen, and the right temperature.",
+    "subject": "Science",
+    "grade": 6,
+    "gold_prereqs": "No Prerequisites",
+    "llm_only": {
+      "answer": "The three primary conditions a seed needs to start growing are:\n\n1. **Water** – to hydrate the seed, activate enzymes, and dissolve nutrients.  \n2. **Oxygen** – for cellular respiration, which provides the energy needed for growth.  \n3. **Suitable temperature** – warm enough (usually within a species‑specific range) to allow metabolic processes and enzyme activity to proceed efficiently.  \n\n(While many seeds also respond to light or darkness, the above three factors are the essential ones for germination.)",
+      "latency": 7.061127185821533,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The three main conditions required for seed germination are:\n\n1. **Water** – to hydrate the seed and activate metabolic processes.  \n2. **Oxygen** – needed for respiration, which provides energy for growth.  \n3. **Appropriate temperature** – a suitable temperature range that allows the biochemical reactions of germination to proceed.  \n\nThese three essential factors are mentioned in the passages [p_11277], [p_11282] and [p_11279].",
+      "latency": 8.703073978424072,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Quick recap of the prerequisite ideas**\n\n1. **Fertilization** – When the male pollen meets the female ovule in a flower, they fuse to form a seed. The seed contains the embryo that will become a new plant.  \n2. **Characteristics of living beings** – All living things need basic things such as water and oxygen to carry out metabolism and grow.  \n\n**Three main conditions for a seed to germinate**\n\nAccording to the NCERT passages on seed germination, a seed will sprout only when the following three essential conditions are present:\n\n1. **Water** – It softens the seed coat, activates enzymes and provides the medium for biochemical reactions.  \n2. **Oxygen (air)** – The embryo needs oxygen for respiration, which releases energy needed for growth.  \n3. **Appropriate temperature** – A suitable temperature speeds up the metabolic processes; too low or too high temperature prevents germination.\n\nWhen water, oxygen, and the right temperature are all available, the seed can break dormancy and begin to grow into a new plant.",
+      "latency": 9.217073202133179,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [],
+        "found": [
+          "characteristics of living beings",
+          "types of natural resources",
+          "fertilization"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Which element in Group 17 has the highest oxidizing power?",
+    "reference": "Fluorine",
+    "subject": "Chemistry",
+    "grade": 11,
+    "gold_prereqs": "No Prerequisites",
+    "llm_only": {
+      "answer": "The element in Group 17 (the halogens) with the greatest oxidizing power is **fluorine (F₂)**.  \n\n- Its standard reduction potential is +2.87 V for the half‑reaction F₂ + 2 e⁻ → 2 F⁻, the highest of all halogens.  \n- This high potential reflects fluorine’s extreme electronegativity and its strong tendency to gain electrons, making it the strongest oxidizing agent in the group.",
+      "latency": 6.745818138122559,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "Fluorine (F) has the highest oxidizing power among the Group 17 elements.",
+      "latency": 11.49802851676941,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps (briefly)**  \n\n1. **Atomic structure & valence electrons** – Elements in the same group have the same outer‑electron configuration. All halogens (Group 17) have the configuration ns²np⁵, i.e., seven electrons in their outer shell. This makes them eager to gain one electron, so they act as strong oxidising agents.  \n\n2. **Oxidising power** – An oxidising agent is a substance that readily accepts electrons (is reduced). The stronger the tendency to gain an electron, the higher the oxidising power.\n\n---\n\n**Answer**\n\nAccording to the NCERT passage **[p_4540]**, the oxidising power of the halogens decreases as we go down Group 17. Therefore, the element at the top of the group—**fluorine (F)**—has the highest oxidising power among the halogens. It can even oxidise water, forming hydrogen fluoride and oxygen gas.",
+      "latency": 11.162867307662964,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [],
+        "found": [
+          "atomic structure and components",
+          "properties of d-block elements",
+          "basic concepts and stoichiometry"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the relationship between the voltages across a resistor and a capacitor in an RC circuit when represented as phasors.",
+    "reference": "The voltage across the capacitor (VC) is represented as a phasor that is π/2 (or 90 degrees) out of phase with the voltage across the resistor (VR). This means that VC lags behind VR by π/2 in the phasor diagram.",
+    "subject": "Physics",
+    "grade": 12,
+    "gold_prereqs": "No Prerequisites",
+    "llm_only": {
+      "answer": "**Phasor picture of an RC series circuit**\n\nConsider a simple series circuit driven by a sinusoidal source  \n\n\\[\nv(t)=V_m\\cos(\\omega t)\\qquad\\text{or}\\qquad \\underline V = V_m\\angle 0^\\circ .\n\\]\n\nThe same current \\(i(t)=I_m\\cos(\\omega t+\\phi )\\) flows through the resistor \\(R\\) and the capacitor \\(C\\).  \nIn the phasor (complex‑exponential) domain the element impedances are  \n\n\\[\nZ_R = R \\qquad\\text{(purely real)} ,\n\\qquad \nZ_C = \\frac{1}{j\\omega C}= -\\,j\\frac{1}{\\omega C}\\qquad\\text{(purely imaginary)} .\n\\]\n\n---\n\n### Individual voltage phasors\n\n| Element | Voltage phasor \\(\\underline V\\) | Phase relation to current |\n|---------|--------------------------------|---------------------------|\n| Resistor | \\(\\displaystyle \\underline V_R = I\\,Z_R = I\\,R\\) | **In‑phase** with the current (lies on the real axis). |\n| Capacitor| \\(\\displaystyle \\underline V_C = I\\,Z_C = I\\frac{1}{j\\omega C}= -j\\,\\frac{I}{\\omega C}\\) | **Lagging** the current by \\(90^\\circ\\) (points straight down the negative‑imaginary axis). |\n\nIf we choose the current phasor \\(\\underline I = I\\angle 0^\\circ\\) as the reference, the two voltages are\n\n\\[\n\\underline V_R = I R \\angle 0^\\circ ,\\qquad\n\\underline V_C = \\frac{I}{\\omega C}\\angle -90^\\circ .\n\\]\n\n---\n\n### Resultant (source) voltage\n\nThe source voltage is the vector sum of the two:\n\n\\[\n\\underline V = \\underline V_R + \\underline V_C\n            = I R \\;+\\; \\bigl(-j\\,\\frac{I}{\\omega C}\\bigr).\n\\]\n\nGeometrically this is a right‑triangle whose legs are \\(V_R = I R\\) (horizontal) and \\(V_C = I/(\\omega C)\\) (vertical, downward).  \n\n\\[\n\\boxed{\\,|V| = I\\sqrt{R^{2}+\\Bigl(\\frac{1}{\\omega C}\\Bigr)^{2}}\\,},\n\\qquad\n\\boxed{\\,\\phi = \\angle V = -\\tan^{-1}\\!\\Bigl(\\frac{1}{\\omega R C}\\Bigr)\\,}.\n\\]\n\nThe angle \\(\\phi\\) is negative because the total voltage **lags** the current (the circuit is overall capacitive).\n\n---\n\n### Frequency dependence\n\n- **Low frequency** (\\(\\omega\\to",
+      "latency": 5.829829216003418,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "In a series RC circuit the phasor for the resistor voltage **V_R** is taken along the reference axis (it is in phase with the current).  \nThe phasor for the capacitor voltage **V_C** is displaced by π⁄2 (90°) from **V_R** – it lags the current (and therefore **V_R**) by a quarter‑cycle.  \n\nThus, when the two voltages are drawn as rotating vectors, **V_R** and **V_C** are perpendicular to each other. The total applied voltage is not the arithmetic sum V_R + V_C; it is obtained by vector (phasor) addition, i.e. the resultant is the diagonal of the right‑angled triangle formed by the two perpendicular phasors. (See p_9280 and p_9604.)",
+      "latency": 11.98286485671997,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite (brief):**  \nIn an AC circuit the voltage and current vary sinusoidally. A *phasor* is a rotating vector that shows both the magnitude of a sinusoid and its phase (the angle by which it leads or lags another sinusoid).  \n\n**Relationship between \\(V_R\\) and \\(V_C\\) in an RC circuit (phasor form):**  \n\n- The voltage across the resistor, \\(V_R\\), is **in phase** with the circuit current. (It points along the same direction as the current phasor.)  \n- The voltage across the capacitor, \\(V_C\\), **lags the current by \\(\\pi/2\\) (90°)**. In phasor language this means the \\(V_C\\) vector is rotated 90° clockwise from the current (or from \\(V_R\\)).  \n\nTherefore, when we draw the two phasors:\n\n```\n          V_R  (horizontal)\n          |\n          |------> (current direction)\n          |\n          V_C  (vertical, pointing downwards)\n```\n\n\\(V_R\\) and \\(V_C\\) are perpendicular to each other. Because they are at right angles, the total voltage \\(V\\) across the series RC combination is **not** the simple arithmetic sum \\(V_R + V_C\\); instead it is the vector (or phasor) sum:\n\n\\[\n\\mathbf{V} = \\mathbf{V_R} + \\mathbf{V_C}\n\\]\n\nGeometrically this is the hypotenuse of a right‑angled triangle whose sides are \\(V_R\\) (horizontal) and \\(V_C\\) (vertical). The magnitude of the total voltage is\n\n\\[\n|V| = \\sqrt{V_R^{2} + V_C^{2}} .\n\\]\n\nThus, in phasor representation, the resistor voltage and capacitor voltage are 90° out of phase, and the overall voltage is obtained by vector addition of these perpendicular phasors.",
+      "latency": 13.721313238143921,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [],
+        "found": [
+          "basic concepts of ac"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Provide an example of a geological phenomenon that occurs when plates move past each other.",
+    "reference": "An example of a geological phenomenon that occurs when plates move past each other is an earthquake. When plates brush against one another, the friction and stress build up, and sudden releases of this energy cause the ground to shake, resulting in an earthquake.",
+    "subject": "Science",
+    "grade": 8,
+    "gold_prereqs": "Types of Friction",
+    "llm_only": {
+      "answer": "One classic example is **strike‑slip faulting**, such as the **San Andreas Fault** in California.  \nWhen two tectonic plates slide horizontally past one another along a transform boundary, the crust cracks and shears, producing a strike‑slip fault. This motion releases stress in sudden bursts, generating **earthquakes** (e.g., the 1906 San Francisco quake) and creating characteristic landforms like linear valleys, offset river channels, and narrow fault scarps.",
+      "latency": 5.01150107383728,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "An example of a geological phenomenon that occurs when tectonic plates move past each other is an **earthquake**.  \n\n*Evidence:* The passage states that “when these plates collide or **move past each other**, they cause disturbances in the Earth's crust, leading to **earthquakes**”【p_13285】.",
+      "latency": 12.702923774719238,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite reminder**\n\n- **Motion** means a change in position over time. The Earth’s crust is split into huge “plates” that slide very slowly (a few centimeters each year).  \n- **Kinematic quantities** such as *speed* (how fast something moves) help describe this slow plate motion, even though we can’t feel it directly.\n\n**Answer**\n\nWhen two tectonic plates slide past each other, the geological phenomenon that commonly occurs is an **earthquake**.  \n\n> “Earthquakes are natural phenomena that occur due to the movement of the Earth's plates. When these plates … move past each other, they cause disturbances in the Earth's crust, leading to earthquakes.” – *p_13285*  \n\nThus, the shaking of the ground that we feel during an earthquake is an example of what happens when plates move laterally past one another.",
+      "latency": 10.038066625595093,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "types of friction"
+        ],
+        "found": [
+          "types of measurements",
+          "kinematic quantities",
+          "basic motion concepts"
+        ]
+      }
+    }
+  },
+  {
+    "question": "What is the process called where protons accumulate within the lumen of the thylakoids?",
+    "reference": "The process is called the creation of a proton gradient.",
+    "subject": "Biology",
+    "grade": 11,
+    "gold_prereqs": "Photosynthetic Mechanisms and Processes",
+    "llm_only": {
+      "answer": "The accumulation of H⁺ ions inside the thylakoid lumen is called **formation of a proton gradient (ΔpH) across the thylakoid membrane**, also referred to as the **proton‑motive force**.  \n\nDuring the light‑dependent reactions of photosynthesis, the electron‑transport chain (especially the cytochrome b₆f complex) pumps protons from the stroma into the lumen, creating this gradient. The stored electrochemical energy is then used by ATP synthase to make ATP—a process known as **photophosphorylation** (light‑driven chemiosmosis).",
+      "latency": 4.912042856216431,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The accumulation of protons in the thylakoid lumen creates a proton gradient that is used to make ATP **through a process called chemiosmosis**【p_333】.",
+      "latency": 8.805809020996094,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite gaps (briefly)**  \n\n1. **Photosynthesis & autotrophs** – Green plants (autotrophs) capture light energy and use it to convert CO₂ and H₂O into sugars. This whole set of reactions occurs in the chloroplasts.  \n\n2. **Nutrition & respiration** – While photosynthesis builds organic molecules, cellular respiration breaks them down to release energy. Both processes involve electron transport chains and the movement of protons, but the locations differ (chloroplast thylakoids vs. mitochondrial inner membrane).  \n\n---\n\n**Answer**  \n\nThe accumulation of protons (H⁺ ions) inside the thylakoid lumen creates a proton gradient that is used to make ATP. This process is called **chemiosmosis**【p_333】. During photosynthetic light reactions, water is split (photolysis) and the released protons build up in the lumen, establishing the gradient that chemiosmosis then exploits to synthesize ATP【p_332】.",
+      "latency": 12.290398120880127,
+      "correctness": null,
+      "groundedness": null,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "photosynthetic mechanisms and processes"
+        ],
+        "found": [
+          "photosynthesis and autotrophs",
+          "nutrition and respiration",
+          "respiratory pathways"
+        ]
+      }
+    }
+  },
+  {
+    "question": "Describe the total energy of a comet throughout its orbit around the Sun, assuming no mass loss.",
+    "reference": "The total energy of a comet throughout its orbit around the Sun remains constant. It is the sum of the comet's kinetic energy and potential energy.",
+    "subject": "Physics",
+    "grade": 11,
+    "gold_prereqs": "Energy Types and Conservation",
+    "llm_only": {
+      "answer": "**Total mechanical energy of a comet in a Sun‑centered orbit (no mass loss)**  \n\nA comet moving only under the Sun’s gravity has two forms of mechanical energy  \n\n\\[\nE_{\\text{tot}} = K + U\n\\]\n\n* **Kinetic energy** \\(K = \\tfrac12 m v^{2}\\) (depends on the comet’s speed \\(v\\)).  \n* **Gravitational potential energy** \\(U = -\\dfrac{G M_{\\odot} m}{r}\\) (depends on the distance \\(r\\) from the Sun).\n\n---\n\n### 1. Conservation of total energy  \n\nBecause the only force is the conservative gravitational force, the sum \\(K+U\\) is **constant** throughout the orbit. As the comet swings close to the Sun (perihelion) it speeds up, so \\(K\\) increases while \\(U\\) becomes more negative; far from the Sun (aphelion) it slows down, so \\(K\\) decreases while \\(U\\) becomes less negative. The changes cancel exactly, leaving the total energy unchanged.\n\n---\n\n### 2. Value of the constant – specific orbital energy  \n\nIt is convenient to divide by the comet’s mass \\(m\\) and work with the **specific orbital energy** \\(\\varepsilon = E_{\\text{tot}}/m\\):\n\n\\[\n\\boxed{\\varepsilon = \\frac{v^{2}}{2} - \\frac{G M_{\\odot}}{r}}\n\\]\n\nFor any Keplerian orbit this constant can be expressed solely in terms of the **semi‑major axis** \\(a\\):\n\n\\[\n\\boxed{\\varepsilon = -\\frac{G M_{\\odot}}{2a}}\n\\]\n\nThus the total mechanical energy of the comet is\n\n\\[\n\\boxed{E_{\\text{tot}} = -\\,\\frac{G M_{\\odot} m}{2a}}\n\\]\n\n---\n\n### 3. What the sign tells you  \n\n| Orbit type | Semi‑major axis \\(a\\) | Specific energy \\(\\varepsilon\\) | Total energy \\(E_{\\text{tot}}\\) |\n|------------|----------------------|--------------------------------|---------------------------------|\n| **Elliptical** (bound) | finite, \\(a>0\\) | \\(\\varepsilon < 0\\) | Negative – the comet is gravitationally bound to the Sun. |\n| **Parabolic** (escape trajectory, limiting case) | \\(a \\to \\infty\\) | \\(\\varepsilon = 0\\) | Zero – the comet has just enough energy to escape. |\n| **Hyperbolic** (unbound) | \\(a < 0\\) (formal) | \\(\\varepsilon > 0\\) | Positive – the comet will leave the Solar System. |\n\n---\n\n### 4. How kinetic and potential energies vary  \n\nUsing the vis‑viva equation (derived from the constant \\(\\varepsilon\\)):\n\n\\[\nv^{2}=G M_{\\odot}\\!\\left(\\frac{2}{r}-\\frac{1}{a}\\right)\n\\]\n\n* At **perihelion** (\\(r=r_{\\text{p}}\\) – smallest distance): \\(v\\) is maximal, \\(K\\) is maximal, \\(U\\) is",
+      "latency": 2.140138864517212,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "plain_rag": {
+      "answer": "The total mechanical energy of a comet that moves around the Sun stays **the same at every point of its orbit** as long as the comet does not lose mass.  \n\n- The total energy \\(E\\) is the sum of its kinetic energy (energy of motion) and its gravitational potential energy (energy due to its position in the Sun’s field) — \\(E = K + U\\)【p_6905】.  \n- Because the comet is in a bound (closed) orbit, this constant total energy is **negative**; a positive or zero total energy would mean the comet could escape to infinity【p_7922】.  \n- For a bound two‑body system the constant value can be written as  \n\n\\[\nE = -\\frac{G M_{\\text{Sun}}\\, m_{\\text{comet}}}{2a},\n\\]\n\nwhere \\(a\\) is the semi‑major axis of the comet’s orbit【p_8034】.  \n\nThus, throughout its elliptical path the comet’s kinetic and potential energies vary, but their sum remains a fixed negative quantity, indicating a stable, closed orbit around the Sun.",
+      "latency": 11.260666370391846,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": null
+    },
+    "hybrid": {
+      "answer": "**Prerequisite ideas (briefly)**  \n\n1. **Centre of mass & momentum** – In an orbit the Sun‑comet system can be treated as two masses \\(M\\) (Sun) and \\(m\\) (comet). Because the Sun is enormously more massive, the centre of mass lies essentially at the Sun’s centre, so we can think of the comet moving in the Sun’s gravitational field.  \n\n2. **Work‑energy concept** – When a body moves in a force field, the work done by the force changes its kinetic energy. In a gravitational field the work done is stored as **gravitational potential energy** \\(U\\). The **mechanical (total) energy** is the sum \\(K+U\\). If no external work is done (no mass loss, no thrust), this total stays the same.\n\n---\n\n### Total energy of a comet in its solar orbit (no mass loss)\n\n* The comet’s **kinetic energy** \\(K\\) (energy of motion) and **gravitational potential energy** \\(U\\) (energy due to its distance from the Sun) continuously change as it moves along an elliptical path.  \n* However, as stated in the NCERT passages:\n\n  * *“the total energy of the orbiting body remains constant if we neglect any mass loss”* (p_6905).  \n  * For an elliptical (or circular) bound orbit the total mechanical energy is **negative**; a positive or zero total energy would let the body escape to infinity (p_7922).  \n  * For a bound two‑body system the constant total energy can be written as  \n\n    \\[\n    E = -\\frac{GM_{\\text{Sun}}\\,m_{\\text{comet}}}{2a},\n    \\]\n\n    where \\(G\\) is the gravitational constant, \\(M_{\\text{Sun}}\\) the Sun’s mass, \\(m_{\\text{comet}}\\) the comet’s mass, and \\(a\\) the **semi‑major axis** of the comet’s elliptical orbit (p_8034).\n\n* **What this means:**  \n  * At perihelion (closest approach) the comet moves fastest, so \\(K\\) is large and \\(U\\) is very negative; the sum equals the constant \\(E\\).  \n  * At aphelion (farthest point) the comet moves slower, so \\(K\\) is smaller and \\(U\\) is less negative, but the sum is still the same \\(E\\).  \n  * Throughout the whole orbit, despite the continual exchange between kinetic and potential forms, the total energy stays **unchanged** and stays **negative**, confirming that the comet remains bound to the Sun.\n\nThus, a comet that does not lose mass has a fixed, negative total mechanical energy given by \\(-GM_{\\text{Sun}}m_{\\text{comet}}/(2a)\\); the kinetic and potential parts vary, but their sum is constant along the entire orbit.",
+      "latency": 14.95071268081665,
+      "correctness": 5,
+      "groundedness": 5,
+      "gap_metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "gold": [
+          "energy types and conservation"
+        ],
+        "found": [
+          "work and energy concepts",
+          "rotational motion concepts",
+          "centre of mass and momentum"
+        ]
+      }
+    }
+  }
+]
